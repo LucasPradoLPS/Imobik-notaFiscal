@@ -1,0 +1,53 @@
+MBString (mbstring)
+CURL (curl)
+DOM (dom)
+XML (xml)
+ZIP (zip)
+JSON (json)
+LibXML (libxml)
+OpenSSL (openssl)
+SimpleXML (SimpleXML)
+FileInfo (fileinfo)
+PDO (PDO)
+PDO SQLite (pdo_sqlite)
+PDO MySql (pdo_mysql)
+PDO PostgreSQL (pdo_pgsql)
+apache2handler
+bcmath
+calendar
+Core
+ctype
+date
+exif
+FFI
+filter
+ftp
+gd
+gettext
+hash
+iconv
+mysqli
+mysqlnd
+pcre
+pgsql
+Phar
+posix
+random
+readline
+Reflection
+session
+shmop
+sockets
+sodium
+SPL
+sqlite3
+standard
+sysvmsg
+sysvsem
+sysvshm
+tokenizer
+xmlreader
+xmlwriter
+xsl
+Zend OPcache
+zlib

@@ -1,0 +1,26 @@
+DROP VIEW IF EXISTS vistoria.vistoriadetalhefull CASCADE;
+DROP VIEW IF EXISTS autenticador.documentofull CASCADE;
+DROP VIEW IF EXISTS financeiro.faturafull CASCADE;
+DROP VIEW IF EXISTS financeiro.pcontafull CASCADE;
+DROP VIEW IF EXISTS vistoria.vistoriafull CASCADE;
+DROP VIEW IF EXISTS contrato.contratoview CASCADE;
+DROP VIEW IF EXISTS contrato.contratofull CASCADE;
+DROP VIEW IF EXISTS contrato.contratoarquivomorto CASCADE;
+DROP VIEW IF EXISTS contrato.contratopessoafull CASCADE;
+DROP VIEW IF EXISTS imovel.imovelfull CASCADE;
+DROP VIEW IF EXISTS imovel.imovelarquivomorto CASCADE;
+DROP VIEW IF EXISTS imovel.imoveldetalhefull CASCADE;
+DROP VIEW IF EXISTS imovel.imovelproprietariofull CASCADE;
+DROP VIEW IF EXISTS configfull CASCADE;
+DROP VIEW IF EXISTS pessoa.pessoadetalheitemfull CASCADE;
+DROP VIEW IF EXISTS pessoa.pessoafull CASCADE;
+DROP VIEW IF EXISTS pessoa.pessoaarquivomorto CASCADE;
+DROP VIEW IF EXISTS templatefull CASCADE;
+DROP VIEW IF EXISTS cidadefull CASCADE;
+DROP VIEW IF EXISTS financeiro.faturadetalhefull CASCADE;
+DROP VIEW IF EXISTS financeiro.caixafull CASCADE;
+DROP VIEW IF EXISTS financeiro.caixafaturadetalheitem CASCADE;
+DROP VIEW IF EXISTS financeiro.extratorepassemensal CASCADE;
+DROP VIEW IF EXISTS financeiro.extratoaluguelmensal CASCADE;
+DROP VIEW IF EXISTS financeiro.extratocontratopessoas CASCADE;
+

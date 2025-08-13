@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>{$URLSITE}</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{$URLSITE}grid-busca-imoveis/locacao/?situacaoImv=1%2C5&amp;zonaImv=&amp;cidadeImv=&amp;bairroImv=</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{$URLSITE}grid-busca-imoveis/venda/?situacaoImv=3%2C5&amp;zonaImv=&amp;cidadeImv=&amp;bairroImv=</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{$URLSITE}anuncie-seu-imovel/</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{$URLSITE}sobre-nos/</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{$URLSITE}contato/</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{$URLSITE}compare/</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{$URLSITE}favoritos/</loc>
+    <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {foreach from=$IMOVELSHOW item="IMOVELITEM"}
+  
+    {$url_amigavel = $IMOVELITEM->imoveltipo|cat:" "|cat:$IMOVELITEM->imoveldestino|cat:" "|cat:$IMOVELITEM->cidade|cat:" "|cat:$IMOVELITEM->bairro|replace:" ":"-"|lower|regex_replace:'/[^a-z\-]/':''}
+    <url>
+      <loc>{$URLSITE}imovel/{$IMOVELITEM->idimovel}/{$url_amigavel}/</loc>
+      <lastmod>{$IMOVELSHOW[0]->lastmod}</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {/foreach}
+</urlset>

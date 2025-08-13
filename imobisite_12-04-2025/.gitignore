@@ -1,0 +1,5 @@
+template/v1/compile
+template/v2/compile
+libs/Connect.class.php
+tmp/
+templates_c/

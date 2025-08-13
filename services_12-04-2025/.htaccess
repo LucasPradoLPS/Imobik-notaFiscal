@@ -1,0 +1,21 @@
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L]
+
+#####Bloqueio,Desbloqueio
+#Order deny,allow
+#deny from all
+#Asaas
+allow from 186.251.193.83
+allow from 54.94.183.101
+allow from 52.67.12.206
+allow from 54.94.136.112
+allow from 54.94.135.45
+allow from 52.67.211.226
+allow from 18.230.8.159
+#Zapsign
+allow from 54.240.9.34
+allow from 44.215.73.113
+#CasaWillian
+#allow from 186.251.193.83

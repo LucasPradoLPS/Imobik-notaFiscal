@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^contato/?$ contact.php [NC]
+RewriteRule ^compare/?$ compare.php [NC]
+RewriteRule ^favoritos/?$ favorite.php [NC]
+RewriteRule ^home/?$ index.php [NC]
+RewriteRule ^sobre-nos/?$ about.php [NC]
+RewriteRule ^anuncie-seu-imovel/?$ imovelanuncio.php [NC]
+RewriteRule ^anuncie-seu-imovel\/?([a-z-]+)\/?$ imovelanuncio.php?sOpcao=$1 [NC]
+RewriteRule ^/?$ index.php [NC]
+RewriteRule ^imovel\/?([0-9]+)\/?$ imovelview.php?imvSelect=$1 [NC]
+RewriteRule ^imovel\/?([0-9]+)\/?([a-z-]+)\/?$ imovelview.php?imvSelect=$1&nameAmigavel=$2 [NC]
+RewriteRule ^imovel\/?([0-9]+)\/?([a-z-]+)\/?$ imovelview.php?imvSelect=$1&nameAmigavel=$2 [NC]
+RewriteRule ^grid-busca-imoveis\/?([a-z-]+)\/?$ imovelgrid.php [NC]
+RewriteRule ^list-busca-imoveis\/?([a-z-]+)\/?$ imovellist.php [NC]
+RewriteRule ^map-busca-imoveis\/?([a-z-]+)\/?$ imovelmap.php [NC]
+RewriteRule ^corretor\/?([0-9]+)\/?([a-z-]+)\/?(.*)\/? imovelcorretor.php?imvCorretor=$1&nameAmigavel=$2&parametros=$3 [NC]
+RewriteRule ^sitemap.xml?$ sitemap.php [NC]
+
+ErrorDocument 400 /error.php?erro=400
+ErrorDocument 403 /error.php?erro=403
+ErrorDocument 404 /error.php?erro=404
+ErrorDocument 500 /error.php?erro=500
+ErrorDocument 501 /error.php?erro=501
+ErrorDocument 502 /error.php?erro=502
+ErrorDocument 503 /error.php?erro=503
+ErrorDocument 504 /error.php?erro=504
+ErrorDocument 505 /error.php?erro=505

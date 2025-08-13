@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem label="Menu Expresso">
+    <icon>fas:shipping-fast fa-fw #9400D3</icon>
+    <menu>
+      <menuitem label="Vistorias">
+        <icon>fas:clipboard-check fa-fw </icon>
+        <action>VistoriaList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Imóveis">
+        <icon>fas:home fa-fw </icon>
+        <action>ImovelList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Pessoas">
+        <icon>fas:users fa-fw </icon>
+        <action>PessoaList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Contratos">
+        <icon>fas:file-signature fa-fw </icon>
+        <action>ContratoList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+</menu>

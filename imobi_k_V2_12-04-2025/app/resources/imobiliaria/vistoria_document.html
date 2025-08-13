@@ -1,0 +1,260 @@
+<!--[main]-->
+<html>
+<head>
+ 
+    <style>
+
+        .header {   
+            position: fixed;
+            left: 0px;
+            margin-top: 0px;
+            top:0px;
+            right: 0px;
+            height: 0px;
+            width: 100%;
+        }
+
+        @page {
+            margin-top: 20;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 5px;
+        }
+
+        body {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+    </style>
+ 
+    <style>
+        .footer {   
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            height: 30;
+            width: 100%;
+        }
+        .footer .page:after{
+            content: counter(page)
+        }
+    </style>
+
+</head>
+<body>
+<!--    <div class="header">  -->
+        <div>
+        <table style="border-collapse: collapse; width: 100%;" border="0">
+            <tbody>
+                <tr>
+                    <td style="width: 20%;text-align: center;" rowspan="2">
+                        <img src="{$logomarca}" alt="" width="125" />
+                    </td>
+                    <td style="width: 78.3%; text-align: center;" colspan="3"><strong><span style="font-size: 14pt;">{$nomefantasia}</span></strong></td>
+                </tr>
+                <tr>
+                    <td style="width: 32.6%;">
+                        <p style="margin: 1px 0;"><span style="font-size: 10pt;">{$persontype}: {$cnpjcpf}<br />
+                                                                                {$endereco} - B. {$bairro} - {$cidadeuf}<br />
+                                                                                CRECI: {$creci}</span></p>
+                    </td>
+                    <td style="width: 17.6%;"> </td>
+                    <td style="width: 28.1%;">
+                        <p style="margin: 1px 0px; text-align: right;"><span style="font-size: 8pt;">Fone: {$fone}<br />
+                                                                                                     Celular: {$mobilephone}<br />
+                                                                                                     E-mail: {$email}</span></p>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+    </div>
+    <p style="margin: 1px 0px; text-align: center;"><span style="font-size: 14pt;"><strong>* </strong><em><strong><em>V I S T O R I A</em> *<br /></strong></em></span></p>
+    <p style="margin: 1px 0px; text-align: left;"><span style="font-size: 14pt;"><strong>Nº.: </strong>{$idvistoria}<strong><br /></strong></span></p>
+        <table style="border-collapse: collapse; width: 95.%;" border="0">
+            <tbody>
+                <tr>
+                    <td style="width: 20%; vertical-align: top;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Tipo:</sup></span></p>
+                        <p style="margin: 1px 0;">{$vistoriatipo}</p>
+                    </td>
+                    <td style="width: 20%; vertical-align: top;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Status:</sup></span></p>
+                        <p style="margin: 1px 0;">{$vistoriastatus}</p>
+                    </td>
+                    <td style="width: 20%; vertical-align: top;"><span style="font-size: 8pt;"><sup>Agenda:</sup></span><br />{$dtagendamento}</td>
+                    <td style="width: 20%; vertical-align: top;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Prazo de Conteste:</sup></span></p>
+                        <p style="margin: 1px 0;">{$pzcontestacao}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 40%; vertical-align: top; height: 47px;" colspan="2">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;">Vistoriador:<br /></span></p>
+                        <p style="margin: 1px 0;">{$vistoriador}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <hr />
+    <p style="margin: 1px 0;"><strong><span style="font-size: 14pt;">Imóvel - </span></strong>{$idimovelchar}</p>
+        <table style="border-collapse: collapse; width: 100%; height: 22px;" border="0">
+            <tbody>
+                <tr style="height: 22px;">
+                    <td style="width: 50%; vertical-align: top; height: 22px;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Endereço:</sup></span></p>
+                        <p style="margin: 1px 0;">{$imovel_endereco}</p>
+                    </td>
+                    <td style="width: 50%; vertical-align: top; height: 22px;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Proprietário(s):</sup></span></p>
+                        <p style="margin: 1px 0;">{$imovel_proprietarios}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="border-collapse: collapse; width: 100%; height: 22px;" border="0">
+            <tbody>
+                <tr style="height: 22px;">
+                        <td style="width: 44.4903%; height: 22px; vertical-align: top;">
+                            <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Bairro:</sup></span></p>
+                            <p style="margin: 1px 0;">{$imovel_bairro}</p>
+                        </td>
+                        <td style="width: 36.8457%; height: 22px; vertical-align: top;">
+                                <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Cidade (UF):</sup></span></p>
+                                <p style="margin: 1px 0;">{$imove_cidadeuf}</p>
+                        </td>
+                        <td style="width: 18.6639%; height: 22px; vertical-align: top;">
+                            <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>CEP:</sup></span></p>
+                            <p style="margin: 1px 0;">{$imovel_cep}</p>
+                        </td>
+                </tr>
+            </tbody>
+        </table>
+    <hr />
+    <p style="margin: 1px 0;"><strong><span style="font-size: 14pt;">Contrato - </span></strong><span style="font-size: 14pt;">{$idcontrato}</span><strong><span style="font-size: 14pt;"><br /></span></strong></p>
+        <table style="border-collapse: collapse; width: 100%;" border="0">
+            <tbody>
+                <tr>
+                    <td style="width: 25%; vertical-align: top;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Dt. Inicio:</sup></span></p>
+                        <p style="margin: 1px 0;">{$dtinicio}</p>
+                    </td>
+                    <td style="width: 25%; vertical-align: top;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Dt. Fim:</sup></span></p>
+                        <p style="margin: 1px 0;">{$dtfim}</p>
+                    </td>
+                    <td style="width: 25%; vertical-align: top;">
+                        <p style="margin: 1px 0;"><span style="font-size: 8pt;"><sup>Prazo:</sup></span></p>
+                        <p style="margin: 1px 0;">{$prazo}</p>
+                    </td>
+                    <td style="width: 25%; vertical-align: top;">
+                        <p style="margin: 1px 0px; text-align: center;"><span style="font-size: 8pt;"><sup>Valor:</sup></span></p>
+                        <p style="margin: 1px 0px; text-align: right;">{$aluguel}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <p style="margin: 1px 0;">Inquilino: {$inquilino}</p>
+    <p style="margin: 1px 0;">Locador(es): {$locador}</p>
+    <hr />
+    <p style="margin: 1px 0px; text-align: center;"><strong><span style="font-size: 14pt;">Seção II - Laudo Descritivo</span></strong></p>
+    <p style="margin: 1px 5px; text-align: justify;" ><span style="font-size: 10pt;">{$laudo}</span></p>
+    <!-- Quebra de Página Seção II -->
+    <div style="page-break-before: always;"> </div>
+    
+    
+    <div>
+    <table style="border-collapse: collapse; width: 100%;" border="0">
+        <tbody>
+            <tr>
+                <td style="width: 20%;text-align: center;" rowspan="2">
+                    <img src="{$logomarca}" alt="" width="125" />
+                </td>
+                <td style="width: 78.3%; text-align: center;" colspan="3"><strong><span style="font-size: 14pt;">{$nomefantasia}</span></strong></td>
+            </tr>
+            <tr>
+                <td style="width: 32.6%;">
+                    <p style="margin: 1px 0;"><span style="font-size: 10pt;">{$persontype}: {$cnpjcpf}<br />
+                                                                            {$endereco} - B. {$bairro} - {$cidadeuf}<br />
+                                                                            CRECI: {$creci}</span></p>
+                </td>
+                <td style="width: 17.6%;"> </td>
+                <td style="width: 28.1%;">
+                    <p style="margin: 1px 0px; text-align: right;"><span style="font-size: 8pt;">Fone: {$fone}<br />
+                                                                                                 Celular: {$mobilephone}<br />
+                                                                                                 E-mail: {$email}</span></p>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+</div>
+    
+    <p style="margin: 1px 0px; text-align: center;"><strong><span style="font-size: 14pt;">Seção III - Laudo de Constatação <br /></span></strong></p>
+        <table class="mce-table" style="font-size: 8pt; border-collapse: collapse; width: 100%; height: 335px; border-color: #929292; border-style: solid; margin-left: auto; margin-right: auto;" border="1" width="100%" cellspacing="0" cellpadding="3" data-detailmodel="Vistoria.detalhe">
+            <tbody>
+            <!--[detalhes]-->
+                <tr style="background-color: #96c0e6;">
+                    <td style="text-align: center; height: 26px;" colspan="3"><span style="font-size: 16pt;">Ambiente/Item: <strong>{$imoveldetalhe}</strong></span></td>
+                </tr>
+                <tr style="text-align: justify;">
+                    <td style="width: 33.33%; height: 26px;"><strong>Estado:</strong> {$vistoriadetalheestado}</td>
+                    <td style="width: 33.33%; height: 26px;"><strong>Caracterização:</strong> {$caracterizacao}</td>
+                    <td style="width: 33.34%; height: 26px;"><strong>Descrição:</strong> {$descricao}</td>
+                </tr>
+                
+                <!--[contestacao]-->
+                <tr style="background-color: #f0f0f0;">
+                    <td style="text-align: center; height: 26px;" colspan="3"><strong>Contestação</strong></td>
+                </tr>
+                <tr style="height: 70px;">
+                    <td style="text-align: justify; height: 70px;"><strong>Data:</strong> {$dtcontestacao}<br /><strong>Argumento:</strong> {$contestacaoargumento}</td>
+                    <td style="vertical-align: top; text-align: justify; height: 70px;"><strong>Resposta:</strong><br />{$contestacaoresposta}</td>
+                    <td style="vertical-align: top; font-size: 8pt; height: 70px;"><strong><sup>Foto</sup></strong><br />
+                        <p style="text-align: center;"><img src="{$contestacaoimg}" alt="" width="200px" /></p>
+                    </td>
+                </tr>
+                <!--[/contestacao]-->
+
+                <!--[inconformidade]-->
+                <tr style="background-color: #f0f0f0;">
+                        <td style="text-align: center; height: 26px;" colspan="3"><strong>Inconformidade</strong></td>
+                </tr>
+                <tr style="height: 99px;">
+                    <td style="text-align: justify; height: 99px;">
+                        <p style="margin: 1px 0;"><strong>Data:</strong> {$dtinconformidade}<br /><strong>Valor:</strong> {$inconformidadevalor}<br /><strong>Reparo:</strong> {$inconformidadereparo}</p>
+                    </td>
+                    <td style="vertical-align: top; text-align: justify; height: 99px;"><strong>Descrição:</strong><br />{$inconformidade}</td>
+                    <td style="vertical-align: top; font-size: 8pt; height: 99px;"><strong><sup>Foto</sup></strong><br /><br />
+                        <p style="text-align: center;"><img src="{$inconformidadeimg}" alt="" width="200px" /></p>
+                    </td>
+                </tr>
+                <!--[/inconformidade]-->
+                
+                <tr style="height: 26px;">
+                    <td style="text-align: center; background-color: #f0f0f0; height: 26px;" colspan="3"><strong>Laudo Fotográfico</strong></td>
+                </tr>
+            		<!--[imagens]-->
+            			{$tagopen}
+            					<figure>
+            					<img src="{$vistoriadetalheimg}" alt="" width="165px" />
+            					<figcaption style= "font-size: 2mm;  text-align: center;">{$legenda}</figcaption>
+            					</figure>
+            			{$tagclose}
+            		<!--[/imagens]-->                
+            <!--[/detalhes]-->
+            </tbody>
+        </table>
+    <!--Link de impressão -->
+    {$print}
+    <div class="footer">
+        <table style="border-collapse: collapse; width: 95%; height: 22px;" border="0">
+            <tbody>
+                <tr style="height: 22px;">
+                    <td style="height: 22px;"><span style="font-size: 8pt;">Impresso por: Imobi-K<sup>®</sup> - {$dtatual}</span><span class="page" style="float: right;">Página </span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+<!--[/main]-->

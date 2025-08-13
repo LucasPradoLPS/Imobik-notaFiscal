@@ -1,0 +1,143 @@
+<html>
+<head>
+
+    <style>
+        .footer {   
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            height: 7px;
+            width: 100%;
+        }
+        .footer .page:after{
+            content: counter(page)
+        }
+    </style>
+</head>
+<body>
+<table style="border-collapse: collapse; width: 100%; height: 44px; background-color: #ecf0f1;">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 20%; height: 44px; text-align: center;" rowspan="2"><img src="{$logomarca}" alt="Logo" width="125pix" /></td>
+<td style="width: 48.9192%; height: 22px;"><span style="font-size: 14pt;"><strong>{$nomefantasia}</strong></span></td>
+<td style="width: 31.0808%; height: 22px;"><span style="font-size: 10pt;">{$cnpjcpffantasia}</span></td>
+</tr>
+<tr style="height: 22px;">
+<td style="height: 22px; width: 48.9192%;"><span style="font-size: 10pt;">{$endereco}<br />Bairro: {$bairro}<br />{$cep} - {$cidade}</span></td>
+<td style="height: 22px; width: 31.0808%;"><span style="font-size: 8pt;">Telefone: {$fone}<br />Celular: {$mobilephone}<br />E-mail: {$email}</span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0px; text-align: center;"><strong><span style="font-size: 18pt;">Extrato de Locação</span></strong></p>
+<p style="margin: 1px 0px; text-align: center;"><strong><span style="font-size: 14pt;">- <em>Imobiliária</em> -</span></strong></p>
+<p style="margin: 1px 0;"><strong>Contrato</strong>: {$idcontratochar}</p>
+<table style="border-collapse: collapse; width: 100%; border-style: none;" border="0" cellspacing="5px">
+<tbody>
+<tr>
+<td style="width: 78.6156%;">
+<p style="margin: 1px 0;"><span style="font-size: 8pt; font-family: courier new, courier, monospace;"><strong>Imóvel</strong>: {$idendereco} - {$cidadeuf}</span></p>
+<p style="margin: 1px 0;"><span style="font-size: 8pt; font-family: courier new, courier, monospace;"><strong>Locador(es)</strong>:{$locadoresclean}</span></p>
+<p style="margin: 1px 0;"><span style="font-size: 8pt; font-family: courier new, courier, monospace;"><strong>Inquilino</strong>:{$inquilino}</span><span style="font-size: 8pt; font-family: courier new, courier, monospace;">, {$inquilinocnpjcpf}</span></p>
+</td>
+<td style="width: 21.3844%;">
+<p style="margin: 1px 0;"><span style="font-size: 8pt; font-family: courier new, courier, monospace;">Inicio: {$dtinicio}</span></p>
+<p style="margin: 1px 0;"><span style="font-size: 8pt; font-family: courier new, courier, monospace;">Fim: {$dtfim}</span></p>
+<p style="margin: 1px 0;"><span style="font-size: 8pt; font-family: courier new, courier, monospace;">Reajuste: {$dtproxreajuste}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0;"> </p>
+<p style="margin: 1px 0;"><strong>Aluguéis (Serviços)</strong></p>
+<table style="border-collapse: collapse; width: 100%; height: 68px;" border="1" data-detailmodel="Fatura.repasse">
+<thead>
+<tr style="height: 24px; background-color: #bdc3c7; border-color: #95a5a6; border-style: solid;">
+<th style="width: 11.1111%; text-align: center; vertical-align: middle; height: 24px;" scope="row"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Fatura</span></strong></th>
+<th style="width: 11.1111%; text-align: center; vertical-align: middle; height: 24px;" scope="row"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Qtde</span></strong></th>
+<th style="width: 11.1111%; text-align: center; vertical-align: middle; height: 24px;" scope="row"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Valor</span></strong></th>
+<th style="width: 11.1111%; text-align: center; vertical-align: middle; height: 24px;" scope="row"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Desconto</span></strong></th>
+<th style="width: 11.1111%; text-align: center; vertical-align: middle; height: 24px;" scope="row"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Dt. Aluguel</span></strong></th>
+<th style="width: 11.1111%; text-align: center; vertical-align: middle; height: 24px;" scope="row"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Aluguel</span></strong></th>
+<th style="width: 11.1111%; text-align: center; vertical-align: middle; height: 24px;" scope="row"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Repasse</span></strong></th>
+<th style="width: 11.1111%; text-align: center; vertical-align: middle;"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">Comissão</span></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f0f0f0; border-color: #95a5a6; border-style: solid;">
+<td style="width: 11.1111%; text-align: center; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$idfatura}</span></td>
+<td style="width: 11.1111%; text-align: center; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$qtde}</span></td>
+<td style="width: 11.1111%; text-align: right; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$valor}</span></td>
+<td style="width: 11.1111%; text-align: right; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$desconto}</span></td>
+<td style="width: 11.1111%; text-align: right; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$dtpagamento}</span></td>
+<td style="width: 11.1111%; text-align: right; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">number_format({$totalcomdesconto},2,',','.')</span></td>
+<td style="width: 11.1111%; text-align: right; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">number_format({$repasse},2,',','.')</span></td>
+<td style="width: 11.1111%; text-align: right;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">number_format({$comissao},2,',','.')</span></td>
+</tr>
+</tbody>
+<tfoot>
+<tr style="height: 22px; background-color: #bdc3c7; border-color: #95a5a6; border-style: solid;">
+<td style="width: 55.5555%; text-align: right; height: 22px;" colspan="5"><strong>Total R$</strong></td>
+<td style="width: 11.1111%; text-align: right; height: 22px;"><strong><span style="font-size: 8pt; font-family: courier new, courier, monospace;">number_format(sum({$totalcomdesconto}),2,',','.')</span></strong></td>
+<td style="width: 11.1111%; height: 22px; text-align: right;"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">number_format(sum({$repasse}),2,',','.')</span></strong></td>
+<td style="width: 11.1111%; text-align: right;"><strong><span style="font-family: courier new, courier, monospace; font-size: 8pt;">number_format(sum({$comissao}),2,',','.')</span></strong></td>
+</tr>
+</tfoot>
+</table>
+<p style="margin: 1px 0;"> </p>
+<p style="margin: 1px 0;"><em><strong>Valores Repassados para o Locador</strong></em></p>
+<table style="border-collapse: collapse; width: 100%; height: 68px;" border="1" data-detailmodel="Fatura.outrosrepasse">
+<thead>
+<tr style="text-align: center; height: 24px; background-color: #bdc3c7; border-color: #95a5a6; border-style: solid;">
+<td style="width: 50%; text-align: center; height: 24px;"><span style="font-size: 8pt;"><strong><span style="font-family: courier new, courier, monospace;">Descrição</span></strong></span></td>
+<td style="width: 50%; height: 24px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;"><strong>Totalizador R$</strong></span></td>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 22px; background-color: #f0f0f0; border-color: #95a5a6; border-style: solid;">
+<td style="width: 50%; height: 22px;"><span style="font-size: 8pt;">{$faturadetalheitem}</span></td>
+<td style="width: 50%; height: 22px; text-align: right;"><span style="font-size: 8pt;">number_format({$total},2,',','.')</span></td>
+</tr>
+</tbody>
+<tfoot>
+<tr style="height: 22px; background-color: #bdc3c7; border-color: #95a5a6; border-style: solid;">
+<td style="width: 50%; height: 22px; text-align: right;"><span style="font-family: courier new, courier, monospace;">Total R$</span></td>
+<td style="width: 50%; height: 22px; text-align: right;">number_format(sum({$total}),2,',','.')</td>
+</tr>
+</tfoot>
+</table>
+<p style="margin: 1px 0;"> </p>
+<p style="margin: 1px 0;"><em><strong>Valores Indenizados à Imobiliária (Caixa)</strong></em></p>
+<table style="border-collapse: collapse; width: 100%; height: 68px;" border="1" data-detailmodel="Fatura.indenizado">
+<thead>
+<tr style="text-align: center; height: 24px; background-color: #bdc3c7; border-color: #95a5a6; border-style: solid;">
+<td style="width: 50%; text-align: center; height: 24px;"><span style="font-size: 8pt;"><strong><span style="font-family: courier new, courier, monospace;">Descrição</span></strong></span></td>
+<td style="width: 50%; height: 24px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;"><strong>Totalizador R$</strong></span></td>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 22px; background-color: #f0f0f0; border-color: #95a5a6; border-style: solid;">
+<td style="width: 50%; height: 22px;"><span style="font-size: 8pt;">{$faturadetalheitem}</span></td>
+<td style="width: 50%; height: 22px; text-align: right;"><span style="font-size: 8pt;">number_format({$total},2,',','.')</span></td>
+</tr>
+</tbody>
+<tfoot>
+<tr style="height: 22px; background-color: #bdc3c7; border-color: #95a5a6; border-style: solid;">
+<td style="width: 50%; height: 22px; text-align: right;"><span style="font-family: courier new, courier, monospace;">Total R$</span></td>
+<td style="width: 50%; height: 22px; text-align: right;">number_format(sum({$total}),2,',','.')</td>
+</tr>
+</tfoot>
+</table>
+<div class="footer">
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr>
+<td><span style="font-family: courier new, courier, monospace; font-size: 10pt;">Impresso por: Imobi-K {$dtatual}</span><span class="page" style="float: right;">Página </span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0;"> </p>
+</div>
+</body>
+
+</html>

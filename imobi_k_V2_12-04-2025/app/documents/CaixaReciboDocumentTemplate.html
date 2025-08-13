@@ -1,0 +1,43 @@
+<html>
+<head>
+
+    <style>
+        .footer {   
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            height: 80px;
+            width: 100%;
+        }
+        .footer .page:after{
+            content: counter(page)
+        }
+    </style>
+</head>
+<body>
+<table style="border-collapse: collapse; width: 100%; height: 44px; background-color: #ecf0f1;">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 20%; height: 44px; text-align: center;" rowspan="2"><img src="{$logofile}" alt="Logo" width="125pix" /></td>
+<td style="width: 48.9192%; height: 22px;"><span style="font-size: 14pt;"><strong>{$nomefantasia}</strong></span></td>
+<td style="width: 31.0808%; height: 22px;"><span style="font-size: 10pt;">Contato:</span></td>
+</tr>
+<tr style="height: 22px;">
+<td style="height: 22px; width: 48.9192%;"><span style="font-size: 10pt;">{$endereco}<br />Bairro: {$bairro}<br />{$cep} - {$cidade}</span></td>
+<td style="height: 22px; width: 31.0808%;"><span style="font-size: 8pt;">Telefone: {$fone}<br />Celular: {$mobilephone}<br />E-mail: {$email}</span></td>
+</tr>
+</tbody>
+</table>
+<p>{$recibo}</p>
+<div class="footer">
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr>
+<td><span style="font-size: 8pt;">Emitido por Imobi-K<sup>©</sup> - {$dtimpresso}</span><span class="page" style="float: right;">Página </span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

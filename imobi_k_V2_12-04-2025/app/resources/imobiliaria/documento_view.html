@@ -1,0 +1,73 @@
+generator="adianti"<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="charset" content="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	</head>
+		<script>
+			function copiarTexto(link)
+			{
+			   const elem = document.createElement('textarea');
+			   elem.value = link;
+			   document.body.appendChild(elem);
+			   elem.select();
+			   document.execCommand('copy');
+			   document.body.removeChild(elem);
+			   alert("Link Copiado! Cole no WhatsApp ou outro programa de sua escolha.");
+			}
+		</script>
+	<body>
+	<!--[main]-->
+		<div class="container-fluid">
+			<div class="panel panel-default">
+				<div class="panel-heading"><div class="panel-title">Documento Nº.: {$iddocumento}
+		</div>
+			</div>
+		<div class="panel-body">
+
+			<div class="row">
+				<div class="col-12">
+					<h1 style="text-align: center;">{$docname}</h1>
+					<span style="color: #999999;">
+					Dt. Registro: {$createdat} <br />
+					Última Atualização: {$lastupdateat}<br />
+					Status: {$status}<br />
+					&nbsp;
+					</span>
+				</div>
+			</div>
+			<blockquote>
+			
+			<!--[signers]-->
+			<div class="row">
+				<div class="col-sm-9 col-xs-12">
+					<h4>{$signatario}<br />
+					<small class="text-muted">{$qualification}</small>
+					</h4>
+					<span style="color: #808080;">{$signurl}</span>
+					<br />{$mess}
+				</div>
+				<div class="col-sm-3 col-xs-12 text-center">
+						<div class="alert alert-primary text-center" role="alert" > {$sstatus}</div>
+						<button onClick = "copiarTexto('{$signurl}')" type="button" class="btn btn-primary btn-sm  " >Compartilhar</button>
+						<a class="btn btn-primary btn-sm" href="{$signurl}" role="button" target="_blank">Abrir&nbsp;</a>
+				</div>
+			</div>
+			<hr>
+			<!--[/signers]-->	
+			</blockquote>
+
+			<div class="row text-center">
+				<div class="col-12">
+				<a class="btn btn-primary" href="{$originalfile}"  target="_blank" role="button">Baixar Original</a>
+				<a class="{$sigbutton}" href="{$signedfile}"  target="_blank" role="button">Baixar Assinado</a>
+				<a class="btn btn-secondary" href="index.php?class=DocumentoList" role="button" generator="adianti">Voltar a Lista</a>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		</div>
+	<!--[/main]-->
+	</body>
+</html>

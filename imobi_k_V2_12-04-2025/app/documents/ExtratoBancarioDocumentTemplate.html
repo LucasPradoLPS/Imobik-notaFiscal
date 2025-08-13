@@ -1,0 +1,64 @@
+<html>
+<head>
+
+    <style>
+        .footer {   
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            height: 5px;
+            width: 100%;
+        }
+        .footer .page:after{
+            content: counter(page)
+        }
+    </style>
+</head>
+<body>
+<table style="border-collapse: collapse; width: 100%; height: 44px; background-color: #ecf0f1;">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 20%; height: 44px; text-align: center;" rowspan="2"><img src="{$logomarca}" alt="Logo" width="125px" /></td>
+<td style="width: 48.9192%; height: 22px;"><span style="font-size: 14pt;"><strong>{$nomefantasia}</strong></span></td>
+<td style="width: 31.0808%; height: 22px;"><span style="font-size: 10pt;">Contato:</span></td>
+</tr>
+<tr style="height: 22px;">
+<td style="height: 22px; width: 48.9192%;"><span style="font-size: 10pt;">{$endereco}<br />Bairro: {$bairro}<br />{$cep} - {$cidade}</span></td>
+<td style="height: 22px; width: 31.0808%;"><span style="font-size: 8pt;">Telefone: {$fone}<br />Celular: {$mobilephone}<br />E-mail: {$email}</span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0px; text-align: center;"><span style="font-size: 14pt;"><strong>Extrato de Conta Corrente</strong></span></p>
+<p style="margin: 1px 0px; text-align: center;"><span style="font-size: 10pt;"><strong>Período: De {$dtinicial} a {$dtfinal}</strong></span></p>
+<p style="margin: 1px 0px; text-align: center;"> </p>
+<table class="mce-table" style="border-collapse: collapse; width: 100%; height: 44px; border-color: #929292; border-style: solid;" border="1" width="100%" cellspacing="0" cellpadding="3" data-detailmodel="Extratocc.idconfig">
+<thead>
+<tr style="background-color: #bdc3c7; height: 50%; border-color: #95a5a6; border-style: solid;">
+<th style="width: 8.78098%; height: 22px;">Data</th>
+<th style="width: 46.9008%; height: 22px;">Descrição</th>
+<th style="width: 10.0207%; height: 22px;">Valor</th>
+<th style="width: 11.7769%; height: 22px;">Saldo</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f0f0f0; height: 10%; border-color: #95a5a6; border-style: solid;">
+<td style="width: 8.78098%; height: 22px; text-align: center;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$date}</span></td>
+<td style="width: 46.9008%; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$description}</span></td>
+<td style="width: 10.0207%; text-align: right; height: 22px;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$value}<br /></span></td>
+<td style="width: 11.7769%; height: 22px; text-align: right;"><span style="font-family: courier new, courier, monospace; font-size: 8pt;">{$balance}</span></td>
+</tr>
+</tbody>
+</table>
+<div class="footer">
+<table style="border-collapse: collapse; width: 100%; height: 22px;" border="0">
+<tbody>
+<tr style="height: 22px;">
+<td style="height: 22px;"><span style="font-size: 8pt;">Gerado por Imobi-K® - {$dtatual}</span> <span class="page" style="float: right;">Página </span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+
+</html>

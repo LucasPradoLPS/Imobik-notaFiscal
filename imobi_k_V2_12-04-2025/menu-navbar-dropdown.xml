@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem label="Extras">
+    <icon>fas:thumbtack fa-fw #9400D3</icon>
+    <menu>
+      <menuitem label="Calendário de Eventos">
+        <icon>fas:calendar-alt fa-fw #9400D3</icon>
+        <action>CalendarEventFormView</action>
+      </menuitem>
+      <menuitem label="Mural de Recados">
+        <icon>fas:comment-alt fa-fw #820AD1</icon>
+        <action>MuralRecadosForm#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+</menu>

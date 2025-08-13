@@ -1,0 +1,122 @@
+<!--[main]-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cartões Para Mural</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .page {
+            width: 210mm;
+            height: 297mm;
+            page-break-after: always;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 49%;
+            height: 132mm;
+            border: 2px solid #000;
+            margin-bottom: 5mm;
+			position: relative;
+        }
+
+        /* Estilos de exemplo para os cartões */
+        .card-content {
+            padding: 5px;
+            margin-right: 0px;
+        }
+		
+		.card-image {
+			max-width: 290px;
+			max-height: 200px;
+			width: auto;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+		
+        .qr-code {
+			max-width: 100px;
+			width: 100px; /* Define a largura do QRCode */
+			height: 100px; /* Define a altura do QRCode */
+			position: absolute; /* Define o posicionamento absoluto */
+			top: 430px; /* Ajuste a posição superior desejada */
+			right: -30px; /* Ajuste a posição à direita desejada */
+        }
+		
+        .card-text {
+            flex: 1;
+            font-size: 12px;
+            text-align: justify;
+        }
+		
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!--[cards]-->
+        {$open_card_container} <!-- <div class="card-container"> -->
+            <div class="card">
+                <div class="card-content">
+                    <table style="width: 100%;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 85%; vertical-align: top;">
+                                    <p style="text-align: center;"><strong>{$nomefantasia}</strong></p>
+                                    <div class="card-text">
+                                    <p>
+                                        CNPJ: {$cnpjcpf}<br>
+                                        CRECI: {$creci}
+                                    </p>
+                                    </div>
+                                </td>
+                                <td style="width: 15%; text-align: center;"><img src="download.php?file={$logomarca}" alt="Logo" width="80" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="font-size: 12px;"><b>{$idimovelchar}</b> - {$enderecofull}</p>
+					<img class="card-image" src="download.php?file={$foto}" alt="Imagem do Imóvel">
+						<div class="card-text">
+						    <table style="width: 100%;">
+                            <tbody>
+                            <tr>
+                            <td style="width: 50%; vertical-align: top; font-size: 10px; text-align: left">
+                                <b><u>{$situacao}</u></b> <br />
+							    Destino: {$destino}<br />
+							    Tipo: {$tipo}<br />
+							    {$aluguel} {$venda}<hr size="1" style="border:1px dashed green;">
+							    {$itens}
+                            </td>
+                            <td style="width: 50%; vertical-align: top; font-size: 10px">{$características}</td>
+                            </tr>
+                            </tbody>
+                            </table>
+						</div>					
+                    <div class="qr-code">
+                        <img src="{$qrcode}" alt="QRCode">
+                        <!--  {$qrcode} -->
+                    </div>
+                </div>
+            </div>
+        {$close_card_container} <!-- </div>  -->
+        {$card_page} <!-- Quebra de página -->
+        <!--[/cards]-->
+    </div>
+</body>
+</html>
+
+
+<!--[/main]-->

@@ -1,0 +1,829 @@
+
+
+
+
+#builder-layout  button:not(.beditorcss).btn.btn-default.full_width {
+    background: rgb(4, 122, 253) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(4, 122, 253) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default.full_width:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default.half_blue {
+    background: rgb(4, 122, 253) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(4, 122, 253) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+#builder-layout  button:not(.beditorcss).btn.btn-default.half_blue:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default.half_orange {
+    background: rgb(255, 255, 255) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    box-shadow: none !important;
+    color: rgb(96, 125, 139) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgba(158, 158, 158, 0.56) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+
+#builder-layout  i:not(.beditorcss).fas.fa-hand-point-left {
+    background: #9E9E9E !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+    border-left-style: none !important;
+    border-color: #ffffff !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+
+#builder-layout  button:not(.beditorcss).btn.btn-default.third_blue {
+    background: rgb(4, 122, 253) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: #047afd !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+#builder-layout  button:not(.beditorcss).btn.btn-default.third_blue:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default.third_orange {
+    background: rgb(255, 255, 255) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    box-shadow: none !important;
+    color: rgb(96, 125, 139) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(158, 158, 158) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+#builder-layout  button:not(.beditorcss).btn.btn-default.third_orange:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+    color: #FFFFFF !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-success {
+    background: rgb(46, 204, 113) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(46, 204, 113) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-success:hover {
+    background: #9400D3 !important;
+    border-color: #9400D3 !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default.btn-sm {
+    background: rgb(255, 255, 255) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 4px !important;
+    padding-right: 8px !important;
+    padding-bottom: 4px !important;
+    padding-left: 8px !important;
+    box-shadow: none !important;
+    color: rgb(81, 98, 131) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(223, 228, 237) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default.btn-sm:hover {
+    background: #9400D3 !important;
+    border-color: #9400D3 !important;
+    color: #FFFFFF !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default {
+    background: rgb(255, 255, 255) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: rgb(81, 98, 131) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(223, 228, 237) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-default:hover {
+    background:  !important;
+    color:  !important;
+    border-color:  !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-primary {
+    background: rgb(4, 122, 253) !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(4, 122, 253) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-primary:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-primary {
+    background: #9400D3 !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: #9400D3 !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-primary:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-primary.disabled {
+    background: #9400D3 !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: #9400D3 !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-primary.disabled:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-secondary {
+    background: rgb(255, 255, 255) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: rgb(96, 125, 139) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: rgb(96, 125, 139) !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-secondary:hover {
+    background: #2ECC71 !important;
+    color: #FFFFFF !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-primary.btn-sm {
+    background: #9400D3 !important;
+    margin-top: 0px !important;
+    margin-right: 3px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: #9400D3 !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  button:not(.beditorcss).btn.btn-primary.btn-sm:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-primary.btn-sm {
+    background: #9400D3 !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: #9400D3 !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 32px !important;
+    border-top-left-radius: 32px !important;
+    border-bottom-right-radius: 32px !important;
+    border-bottom-left-radius: 32px !important;
+}
+#builder-layout  a:not(.beditorcss).btn.btn-primary.btn-sm:hover {
+    background: #2ECC71 !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  div:not(.beditorcss).alert.alert-primary.text-center {
+    background: #FFFFFF !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 16px !important;
+    margin-left: 0px !important;
+    padding-top: 12px !important;
+    padding-right: 20px !important;
+    padding-bottom: 12px !important;
+    padding-left: 20px !important;
+    box-shadow: none !important;
+    color: #9400D3 !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: #9400D3 !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+#builder-layout  button:not(.beditorcss).btn.btn-default.half_orange:hover {
+    background: #2ECC71 !important;
+    color: #FFFFFF !important;
+    border-color: #2ECC71 !important;
+}
+#builder-layout  div:not(.beditorcss).info-box {
+    background: #FFFFFF !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 21px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: 2px 2px 0px 0px #f8fafd !important;
+    color:  !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: left !important;
+    border-top-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-color: #f8fafd !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+}
+
+
+
+#builder-layout  span:not(.beditorcss).info-box-icon.bg-orange {
+    background: #f8fafd !important;
+    margin-top: 0px !important;
+    margin-right: 13px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 45px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style:  !important;
+    border-right-style: solid !important;
+    border-bottom-style:  !important;
+    border-left-style:  !important;
+    border-color: #f8fafd !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+
+#builder-layout  a:not(.beditorcss).button-circle.checked {
+    background: rgb(130, 10, 209) !important;
+    margin-top: 3px !important;
+    margin-right: 12.5px !important;
+    margin-bottom: 5px !important;
+    margin-left: 12.5px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+    border-left-style: none !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-top-right-radius: 100px !important;
+    border-top-left-radius: 100px !important;
+    border-bottom-right-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+}
+#builder-layout  a:not(.beditorcss).button-circle.checked:hover {
+    background: #FF5722 !important;
+}
+#builder-layout  span:not(.beditorcss).info-box-text {
+    background: rgba(0, 0, 0, 0) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: #607D8B !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: left !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+    border-left-style: none !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+#builder-layout  span:not(.beditorcss).info-box-number {
+    background: rgba(0, 0, 0, 0) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: #607D8B !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: left !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+    border-left-style: none !important;
+    border-color: #ffffff !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+#builder-layout  i:not(.beditorcss).fas.fa-user-alt-slash {
+    background: rgba(0, 0, 0, 0) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: #D3D3D3 !important;
+    font-size: 15px !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+    border-left-style: none !important;
+    border-color: rgb(4, 122, 253) !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+#builder-layout  i:not(.beditorcss).fas.fa-address-card {
+    background: rgba(0, 0, 0, 0) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: #D3D3D3 !important;
+    font-size: 15px !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+    border-left-style: none !important;
+    border-color: #047afd !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+#builder-layout  i:not(.beditorcss).fas.fa-user-check {
+    background: rgba(0, 0, 0, 0) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+    color: #D3D3D3 !important;
+    font-size: 15px !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
+    text-decoration-line: none !important;
+    text-align: center !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+    border-left-style: none !important;
+    border-color: #047afd !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+

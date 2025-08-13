@@ -1,0 +1,118 @@
+<html>
+<head>
+
+    <style>
+        .footer {   
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            height: 80px;
+            width: 100%;
+        }
+        .footer .page:after{
+            content: counter(page)
+        }
+    </style>
+</head>
+<body>
+<table style="border-collapse: collapse; width: 100%; height: 44px; background-color: #ecf0f1;">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 20%; height: 44px; text-align: center;" rowspan="2"><img src="{$logomarca}" alt="Logomarca" width="125px" /></td>
+<td style="width: 48.9192%; height: 22px;"><span style="font-size: 14pt;"><strong>{$nomefantasia}</strong></span></td>
+<td style="width: 31.0808%; height: 22px;"><span style="font-size: 10pt;">Contato:</span></td>
+</tr>
+<tr style="height: 22px;">
+<td style="height: 22px; width: 48.9192%;"><span style="font-size: 10pt;">{$endereco}<br />Bairro: {$bairro}<br />{$cep} - {$cidade}</span></td>
+<td style="height: 22px; width: 31.0808%;"><span style="font-size: 8pt;">Telefone: {$fone}<br />Celular: {$mobilephone}<br />E-mail: {$email}</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><strong><span style="font-size: 14pt;">FATURA</span></strong></p>
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr>
+<td style="width: 50%;"><span style="font-size: 10pt;">Nº do Documento: {$idfatura}</span></td>
+<td style="width: 50%; text-align: right;">
+<p style="margin: 1px 0;">{$printvencimento}{$dtpagamento}</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table style="border-collapse: collapse; width: 100%; height: 44px;" border="0">
+<tbody>
+<tr style="width: 100%; height: 22px;">
+<td><span style="font-size: 8pt;">Resumo do Documento</span></td>
+</tr>
+<tr>
+<td style="background-color: #f0f0f0; text-align: justify;"><span style="font-size: 10pt;">{$instrucao}</span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0;"> </p>
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 100%; height: 22px;"><span style="font-size: 12pt;">Discriminação</span></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 71.0305%; height: 22px;">
+<table class="mce-table" style="border-collapse: collapse; width: 100%; border-color: #929292; border-style: solid;" border="1" width="100%" cellspacing="0" cellpadding="3" data-detailmodel="Faturadetalhe.idfatura">
+<thead>
+<tr style="background-color: #cce3fb;">
+<th style="width: 15%; height: 22px;"><span style="font-size: 8pt;">Item</span></th>
+<th style="width: 15%; height: 22px;"><span style="font-size: 8pt;">Qtde</span></th>
+<th style="width: 15%; height: 22px;"><span style="font-size: 8pt;">Desconto</span></th>
+<th style="width: 25%;"><span style="font-size: 8pt;">Observação</span></th>
+<th style="width: 15%; height: 22px;"><span style="font-size: 8pt;">Valor</span></th>
+<th style="width: 15%;"><span style="font-size: 8pt;">Total<br /></span></th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f0f0f0;">
+<td style="height: 22px; vertical-align: middle;"><span style="font-size: 10pt;">{$fk_idfaturadetalheitem->faturadetalheitem}</span></td>
+<td style="height: 22px; vertical-align: middle; text-align: center;"><span style="font-size: 8pt;">number_format({$qtde}, 2, ',', '.')<br /></span></td>
+<td style="height: 22px; text-align: right; vertical-align: middle;">
+<p style="margin: 1px 0px; text-align: center;"><span style="font-size: 8pt;">number_format({$desconto}, 2, ',', '.')<br /></span></p>
+</td>
+<td style="text-align: right; vertical-align: top;">
+<p style="margin: 1px 0px; text-align: justify;"><span style="font-size: 8pt;">{$descontoobs}<br /></span></p>
+</td>
+<td style="height: 22px; text-align: right; vertical-align: middle;">
+<p style="margin: 1px 0;"><span style="font-size: 8pt;">number_format({$valor}, 2, ',', '.')<br /></span></p>
+</td>
+<td style="text-align: right; vertical-align: middle;">
+<p style="margin: 1px 0;"><span style="font-size: 8pt;">number_format({$valor_total}, 2, ',', '.')<br /></span></p>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr style="background-color: #cce3fb;">
+<td style="width: 82.3392%; height: 22px; text-align: right;" colspan="5"><strong><span style="font-size: 10pt;">Valor Total da Fatura: R$</span></strong></td>
+<td style="width: 17.4269%; text-align: right;"><strong>number_format(sum({$valor_total}), 2, ',', '.')</strong></td>
+</tr>
+</tfoot>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left;">Dados do {$cedentesacado}:</p>
+<hr />
+<p style="text-align: left;">Cod: {$fk_idpessoa->idpessoachar} -  {$fk_idpessoa->pessoa} - CPF/CNPJ: {$fk_idpessoa->cnpjcpf}<br />{$fk_idpessoa->endereco}, {$fk_idpessoa->enderecocomplemento}<br />{$fk_idpessoa->cep} - {$fk_idpessoa->bairro} - {$fk_idpessoa->cidadeuf}</p>
+<p style="margin: 1px 0;">{$recibo}</p>
+<p style="margin: 1px 0;"> </p>
+<p style="margin: 1px 0;"> </p>
+<div class="footer">
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr>
+<td><span style="font-size: 8pt;">Emitido por Imobi-K<sup>©</sup> - {$dtimpresso}</span><span class="page" style="float: right;">Página </span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

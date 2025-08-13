@@ -1,0 +1,65 @@
+<!--[main]-->
+
+<table style="width: 100%;" cellpadding="5px">
+	<tbody>
+		<tr>
+			<td style="text-align: center; background-color: #ecf0f1; color: #696969;" colspan="2"><strong>Resumo da Fatura</strong><br /><small>Visão geral dos valores desta fatura, incluindo cobranças, pagamentos e repasses.</small></td>
+		</tr>
+		<tr>
+			<td style="background-color: #F0F8FF;" colspan="2"><strong>Inquilino: </strong>{$sacado}</td>
+		</tr>
+		<tr style="background-color: #f0f0f0">
+			<td style="width: 70%;"><strong>Vencimento:</strong></td>
+			<td style="width: 30%; text-align: right;">{$dtvencimento}</td>
+		</tr>
+		<tr>
+			<td><strong>Valor total desta fatura nº {$idfatura}:</strong></td>
+			<td style="text-align: right;">{$valortotal}</td>
+		</tr>
+		<tr style="background-color: #f0f0f0">
+			<td><strong>Aluguel</strong> <small>(e serviços )</small></td>
+			<td style="text-align: right;">{$valor}</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;"><strong>Taxa de Administração</strong>: <small>Valor cobrado pela imobiliária para cobrir os custos de gestão e administração do imóvel, incluindo serviços como cobrança de aluguel, manutenção de contratos e atendimento ao proprietário e inquilinos.</small></td>
+			<td style="text-align: right;"><strong>{$comissaovalor}</strong></td>
+		</tr>
+		<tr style="background-color: #cce3fb">
+			<td style="text-align: justify;"><strong>Repasse do Aluguel</strong>: <small>Valor transferido ao proprietário/locador do imóvel, referente ao pagamento do aluguel feito pelo inquilino, após deduzir as taxas e encargos administrativos da Imobiliária, estabelecidos no contrato.</small></td>
+			<td style="text-align: right;"><strong>{$repassevalor}</strong></td>
+		</tr>
+		<tr>
+			<td style="text-align: justify; background-color: #f0f0f0;" colspan="2"><strong>Reembolso:</strong> Despesas da imobiliária com IPTU, condomínio, água, luz, taxas e outros custos relacionados ao imóvel, que devem ser ressarcidas pelo inquilino e permanecerão no caixa da empresa.</td>
+		</tr>
+		<!--[reembolso]-->
+		<tr style="background-color: #cce3fb;">
+			<td style="text-align: justify;">{$item}</td>
+			<td style="text-align: right;">{$total}</td>
+		</tr>
+		<!--[/reembolso]-->
+		<tr style="background-color: #d3d3d3;">
+			<td style="text-align: right;"><strong>Total Reembolso</strong></td>
+			<td style="text-align: right;"><strong>{$totalreembolso}</strong></td>
+		</tr>
+		<tr>
+			<td style="text-align: justify; background-color: #f0f0f0;" colspan="2"><strong>Outros Repasses</strong>: <small> Transferência de valores cobrados pela imobiliária, referentes a despesas como IPTU, condomínio, água, luz, e outros custos relacionados ao imóvel, que são pagos pelo inquilino e posteriormente repassados ao proprietário/locador.</small></td>
+		</tr>
+		<tr>
+			<td style="text-align: justify; background-color: #F0F8FF;" colspan="2"><strong>Locador(es)</strong>: {$locadores}</td>
+		</tr>
+		<!--[repasse]-->
+		<tr style="background-color: #cce3fb;">
+			<td style="text-align: justify;">{$item}</td>
+			<td style="text-align: right;">{$total}</td>
+		</tr>
+		<!--[/repasse]-->
+		<tr style="background-color: #d3d3d3;">
+			<td style="text-align: right;"><strong>Total Repasse de Encargos</strong></td>
+			<td style="text-align: right;"><strong>{$totalrepasse}</strong></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<!--[/main]-->
