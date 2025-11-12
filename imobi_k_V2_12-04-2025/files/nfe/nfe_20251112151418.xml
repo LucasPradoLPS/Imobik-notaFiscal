@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Exemplo de NF-e (modelo simplificado) para testes.
+  Valores fictícios — substitua pelos dados reais quando for emitir de verdade.
+  Esta estrutura é suficiente para testar envio/recebimento em clientes que apenas
+  verificam well-formed XML e campos básicos.
+-->
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe>
+    <infNFe Id="NFe12345678901234567890123456789012345678901234" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>12345678</cNF>
+        <natOp>Venda de mercadoria</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>1000</nNF>
+        <dhEmi>2025-11-11T10:00:00-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3550308</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+      </ide>
+
+      <emit>
+        <CNPJ>57.248.342/0001-42</CNPJ>
+        <xNome>CALIFORNIA EMPREENDIMENTOS IMOBILIARIOS LTDA	</xNome>
+        <enderEmit>
+          <xLgr>Rua Doutor Pedro Luiz</xLgr>
+          <nro>429</nro>
+          <xBairro>Centro</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>Sete Lagoas</xMun>
+          <UF>MG</UF>
+          <CEP>35700-004</CEP>
+        </enderEmit>
+        <IE>123456789</IE>
+      </emit>
+
+      <dest>
+        <CPF>00000000191</CPF>
+        <xNome>Cliente Exemplo</xNome>
+        <enderDest>
+          <xLgr>Av Cliente</xLgr>
+          <nro>500</nro>
+          <xBairro>Centro</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>Sao Paulo</xMun>
+          <UF>SP</UF>
+          <CEP>02000000</CEP>
+        </enderDest>
+      </dest>
+
+      <det nItem="1">
+        <prod>
+          <cProd>001</cProd>
+          <cEAN/> 
+          <xProd>Produto de Teste</xProd>
+          <NCM>00000000</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>un</uCom>
+          <qCom>1.00</qCom>
+          <vUnCom>100.00</vUnCom>
+          <vProd>100.00</vProd>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>0</modBC>
+              <vBC>100.00</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>18.00</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <vBC>100.00</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>1.65</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <vBC>100.00</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>7.60</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+
+      <total>
+        <ICMSTot>
+          <vBC>100.00</vBC>
+          <vICMS>18.00</vICMS>
+          <vProd>100.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vPIS>1.65</vPIS>
+          <vCOFINS>7.60</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>118.65</vNF>
+        </ICMSTot>
+      </total>
+
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+
+      <pag>
+        <detPag>
+          <tPag>01</tPag>
+          <vPag>118.65</vPag>
+        </detPag>
+      </pag>
+
+      <infAdic>
+        <infCpl>Documento de teste gerado para integração (valores fictícios).</infCpl>
+      </infAdic>
+
+    </infNFe>
+  </NFe>
+  <protNFe>
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>1.0</verAplic>
+      <chNFe>35123456789012345678901234567890123456789012</chNFe>
+      <dhRecbto>2025-11-11T10:00:05-03:00</dhRecbto>
+      <nProt>135000000000000</nProt>
+      <digVal></digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

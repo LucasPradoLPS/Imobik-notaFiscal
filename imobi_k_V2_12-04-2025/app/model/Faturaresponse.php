@@ -85,6 +85,15 @@ class Faturaresponse extends TRecord
         parent::addAttribute('docobject');
         parent::addAttribute('doctype');
         parent::addAttribute('daysafterduedatetocancellationregistration');
+    // NF-e related attributes (opção A: reusar Faturaresponse)
+    parent::addAttribute('nfe_chave');
+    parent::addAttribute('nfe_protocolo');
+    parent::addAttribute('nfe_status');
+    parent::addAttribute('nfe_response_json');
+    parent::addAttribute('nfe_xml_path');
+    parent::addAttribute('nfe_pdf_path');
+    parent::addAttribute('nfe_created_at');
+    parent::addAttribute('nfe_updated_at');
             
     }
 

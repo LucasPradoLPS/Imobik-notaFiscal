@@ -312,7 +312,7 @@ class ImovelToSignForm extends TPage
             TTransaction::rollback(); // undo all pending operations
         }
     }
-    public static function onToSend($param = null) 
+    public function onToSend($param = null) 
     {
         try 
         {

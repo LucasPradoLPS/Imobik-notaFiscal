@@ -1,0 +1,118 @@
+[11-Nov-2025 14:59:21 America/Sao_Paulo] PHP Warning:  Attempt to read property "balance" on null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\control\financeiro\RelatoriosBancariosForm.php on line 213
+[11-Nov-2025 14:59:21 America/Sao_Paulo] PHP Warning:  Attempt to read property "agency" on null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\control\financeiro\RelatoriosBancariosForm.php on line 215
+[11-Nov-2025 14:59:21 America/Sao_Paulo] PHP Warning:  Attempt to read property "account" on null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\control\financeiro\RelatoriosBancariosForm.php on line 215
+[11-Nov-2025 14:59:21 America/Sao_Paulo] PHP Warning:  Attempt to read property "accountDigit" on null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\control\financeiro\RelatoriosBancariosForm.php on line 215
+[11-Nov-2025 15:54:09 America/Sao_Paulo] PHP Warning:  Undefined variable $env in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\FocusNFeClient.php on line 58
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 59: parser error : Opening and ending tag mismatch: menuitem line 31 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():     &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():            ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 60: parser error : Opening and ending tag mismatch: menu line 30 and menuitem in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():   &lt;/menuitem&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():              ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 322: parser error : Opening and ending tag mismatch: menuitem line 28 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():        ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 323: parser error : Premature end of data in tag menu line 2 in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():  in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:08:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php:24
+Stack trace:
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php(24): SimpleXMLElement->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenuFactory.php(20): BuilderMenu->__construct()
+#2 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(103): BuilderMenuFactory::getInstance()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(249): BuilderTemplateParser::parse()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\index.php(13): BuilderTemplateParser::init()
+#5 {main}
+  thrown in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 59: parser error : Opening and ending tag mismatch: menuitem line 31 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():     &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():            ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 60: parser error : Opening and ending tag mismatch: menu line 30 and menuitem in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():   &lt;/menuitem&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():              ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 322: parser error : Opening and ending tag mismatch: menuitem line 28 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():        ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 323: parser error : Premature end of data in tag menu line 2 in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():  in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:09:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php:24
+Stack trace:
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php(24): SimpleXMLElement->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenuFactory.php(20): BuilderMenu->__construct()
+#2 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(103): BuilderMenuFactory::getInstance()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(249): BuilderTemplateParser::parse()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\index.php(13): BuilderTemplateParser::init()
+#5 {main}
+  thrown in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 59: parser error : Opening and ending tag mismatch: menuitem line 31 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():     &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():            ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 60: parser error : Opening and ending tag mismatch: menu line 30 and menuitem in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():   &lt;/menuitem&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():              ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 322: parser error : Opening and ending tag mismatch: menuitem line 28 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():        ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 323: parser error : Premature end of data in tag menu line 2 in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():  in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:11:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php:24
+Stack trace:
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php(24): SimpleXMLElement->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenuFactory.php(20): BuilderMenu->__construct()
+#2 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(103): BuilderMenuFactory::getInstance()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(249): BuilderTemplateParser::parse()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\index.php(13): BuilderTemplateParser::init()
+#5 {main}
+  thrown in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 59: parser error : Opening and ending tag mismatch: menuitem line 31 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():     &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():            ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 60: parser error : Opening and ending tag mismatch: menu line 30 and menuitem in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():   &lt;/menuitem&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():              ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 322: parser error : Opening and ending tag mismatch: menuitem line 28 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():        ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 323: parser error : Premature end of data in tag menu line 2 in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():  in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:12:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php:24
+Stack trace:
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php(24): SimpleXMLElement->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenuFactory.php(20): BuilderMenu->__construct()
+#2 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(103): BuilderMenuFactory::getInstance()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(249): BuilderTemplateParser::parse()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\index.php(13): BuilderTemplateParser::init()
+#5 {main}
+  thrown in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 59: parser error : Opening and ending tag mismatch: menuitem line 31 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():     &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():            ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 60: parser error : Opening and ending tag mismatch: menu line 30 and menuitem in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():   &lt;/menuitem&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():              ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 322: parser error : Opening and ending tag mismatch: menuitem line 28 and menu in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): &lt;/menu&gt; in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():        ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 323: parser error : Premature end of data in tag menu line 2 in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct():  in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Warning:  SimpleXMLElement::__construct(): ^ in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:13:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php:24
+Stack trace:
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php(24): SimpleXMLElement->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenuFactory.php(20): BuilderMenu->__construct()
+#2 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(103): BuilderMenuFactory::getInstance()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\builder\BuilderTemplateParser.php(249): BuilderTemplateParser::parse()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\index.php(13): BuilderTemplateParser::init()
+#5 {main}
+  thrown in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\menu\BuilderMenu.php on line 24
+[12-Nov-2025 09:33:56 America/Sao_Paulo] PHP Warning:  Attempt to read property "balance" on null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\control\consultasrelatorios\ResumoFinanceiro.php on line 331
+[12-Nov-2025 09:33:58 America/Sao_Paulo] PHP Warning:  Attempt to read property "balance" on null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\control\consultasrelatorios\ResumoFinanceiro.php on line 467
+[12-Nov-2025 09:33:58 America/Sao_Paulo] PHP Warning:  Attempt to read property "balance" on null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\control\consultasrelatorios\ResumoFinanceiro.php on line 470
+[12-Nov-2025 09:33:59 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\lib\adianti\wrapper\BootstrapFormBuilder.php on line 769
+[12-Nov-2025 10:37:46 America/Sao_Paulo] PHP Warning:  Undefined variable $env in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\FocusNFeClient.php on line 60
+[12-Nov-2025 10:39:29 America/Sao_Paulo] PHP Warning:  Undefined variable $env in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\FocusNFeClient.php on line 60
+[12-Nov-2025 10:40:51 America/Sao_Paulo] PHP Warning:  Undefined variable $env in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\FocusNFeClient.php on line 60
+[12-Nov-2025 10:43:09 America/Sao_Paulo] PHP Warning:  Undefined variable $env in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\FocusNFeClient.php on line 60

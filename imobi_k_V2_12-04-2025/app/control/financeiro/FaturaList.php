@@ -967,8 +967,10 @@ if (Uteis::isMobile() == true ){ $this->datagrid->enablePopover("", null); }
 
             // close the transaction
             TTransaction::close();
-            $objects = $this->onReload();
-            $this->loaded = true;
+            // reload list (create instance to call non-static onReload from static context)
+            $list = new self();
+            $objects = $list->onReload();
+            $list->loaded = true;
 
             //</autoCode>
         }
