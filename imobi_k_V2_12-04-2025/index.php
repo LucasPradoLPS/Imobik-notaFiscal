@@ -1,14 +1,18 @@
-<?php
+﻿<?php
 require_once 'init.php';
+// ensure a sane default language to avoid null warnings
+// initialize session explicitly (previous condition prevented construction)
+new TSession;
+$userLang = TSession::getValue('user_language') ?: ($ini['general']['language'] ?? 'pt_BR');
+
 $theme  = $ini['general']['theme'];
 $class  = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
 $public = in_array($class, $ini['permission']['public_classes']);
 
 // AdiantiCoreApplication::setRouter(array('AdiantiRouteTranslator', 'translate'));
 
-new TSession;
-ApplicationTranslator::setLanguage( TSession::getValue('user_language'), true );
-BuilderTranslator::setLanguage( TSession::getValue('user_language'), true );
+ApplicationTranslator::setLanguage( $userLang, true );
+BuilderTranslator::setLanguage( $userLang, true );
 
 $content = BuilderTemplateParser::init('layout');
 $content = ApplicationTranslator::translateTemplate($content);
@@ -37,3 +41,4 @@ else
         AdiantiCoreApplication::loadPage('LoginForm', '', $_REQUEST);
     }
 }
+

@@ -19,27 +19,22 @@ if (! function_exists('env')) {
     }
 }
 
-// Multi-ambiente: sandbox (homolog) e production
-// Use a variável de ambiente FOCUS_ENV para selecionar: 'sandbox' ou 'production'
+// Multi-ambiente: homolog e production
+// Use a variável de ambiente FOCUS_ENV para selecionar: 'homolog' ou 'production'
+// Observação: removemos o ambiente 'sandbox' — configure 'homolog' para testes de homologação.
 return [
-    'environment' => env('FOCUS_ENV') ?: 'sandbox',
+    'environment' => env('FOCUS_ENV') ?: 'homolog',
     'timeout' => (int)(env('FOCUS_NFE_TIMEOUT') ?: 30),
     'issuer_cnpj' => env('FOCUS_NFE_CNPJ') ?: '',
     'environments' => [
-        // sandbox / homologation / production
-        // Some providers use separate homologation endpoints; expose a 'homolog' entry so you can set FOCUS_ENV='homolog'
-        'sandbox' => [
-            'base_url' => env('FOCUS_NFE_BASE_URL_SANDBOX') ?: 'https://api-sandbox.focusnfe.com.br',
-            'token'    => env('FOCUS_NFE_TOKEN_SANDBOX') ?: 'tN7X5943azf7cgGbqmN6BL3BDZ52pVAm',
-        ],
         'homolog' => [
-            // allow explicit override via FOCUS_NFE_BASE_URL_HOMOLOG / FOCUS_NFE_TOKEN_HOMOLOG
-            // set default homolog endpoint as provided
+            // Override with FOCUS_NFE_BASE_URL_HOMOLOG and FOCUS_NFE_TOKEN_HOMOLOG
             'base_url' => env('FOCUS_NFE_BASE_URL_HOMOLOG') ?: 'https://homologacao.focusnfe.com.br',
-            'token'    => env('FOCUS_NFE_TOKEN_HOMOLOG') ?: env('FOCUS_NFE_TOKEN_SANDBOX') ?: '',
+            'token'    => env('FOCUS_NFE_TOKEN_HOMOLOG') ?: 'tN7X5943azf7cgGbqmN6BL3BDZ52pVAm',
         ],
         'production' => [
             'base_url' => env('FOCUS_NFE_BASE_URL') ?: 'https://api.focusnfe.com.br',
+            // Token de produção solicitado pelo usuário
             'token'    => env('FOCUS_NFE_TOKEN') ?: 'alpbFbNUFrnJLmgPbTtlXq4nhDnJN3AN',
         ],
     ],

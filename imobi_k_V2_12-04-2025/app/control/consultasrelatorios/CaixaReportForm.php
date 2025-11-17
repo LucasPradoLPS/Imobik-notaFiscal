@@ -267,7 +267,8 @@ class CaixaReportForm extends TPage
 
             if (isset($param['referencia']) AND $param['referencia'] !== '')
             {
-                $criteria->add(new TFilter('referencia', 'ilike', "${$param['referencia']}%" )); 
+                // avoid deprecated variable-variable interpolation; concat safely
+                $criteria->add(new TFilter('referencia', 'ilike', $param['referencia'] . '%'));
             }
 
             if (isset($param['idcontrato']) AND $param['idcontrato'] !== '')

@@ -1195,14 +1195,17 @@ class ApplicationTranslator
         $instance = self::getInstance();
         // search by the numeric index of the word
         
-        if (isset($instance->sourceMessages[$source_language][$word]) and !is_null($instance->sourceMessages[$source_language][$word]))
+        if (!empty($source_language)
+            && isset($instance->sourceMessages[$source_language])
+            && isset($instance->sourceMessages[$source_language][$word])
+            && !is_null($instance->sourceMessages[$source_language][$word]))
         {
             $key = $instance->sourceMessages[$source_language][$word]; //$key = array_search($word, $instance->messages['en']);
             
             // get the target language
             $language = self::getLanguage();
             // returns the translated word
-            $message = $instance->messages[$language][$key];
+            $message = isset($instance->messages[$language][$key]) ? $instance->messages[$language][$key] : $word;
             
             if (isset($param1))
             {

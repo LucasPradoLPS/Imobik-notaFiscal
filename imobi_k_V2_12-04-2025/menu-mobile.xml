@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu>
-     
+	<menuitem label="Imobiliária">
+		<icon>fas:city fa-fw</icon>
+		<menu>
+			<menuitem label="CRM">
+				<icon>fas:address-book fa-fw</icon>
+				<menu>
+					<menuitem label="Contatos">
+						<action>CrmView#method=onShow#entity=Contact</action>
+						<icon>fas:users fa-fw</icon>
+					</menuitem>
+					<menuitem label="Leads">
+						<action>CrmView#method=onShow#entity=Lead</action>
+						<icon>fas:bullhorn fa-fw</icon>
+					</menuitem>
+					<menuitem label="Contas">
+						<action>CrmView#method=onShow#entity=Account</action>
+						<icon>fas:building fa-fw</icon>
+					</menuitem>
+				</menu>
+			</menuitem>
+		</menu>
+	</menuitem>
 </menu>

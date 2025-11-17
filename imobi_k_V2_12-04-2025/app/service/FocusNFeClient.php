@@ -46,6 +46,13 @@ class FocusNFeClient
 
         // Check DNS resolution before attempting cURL to provide a clearer error message
         $host = parse_url($url, PHP_URL_HOST);
+        // Allow skipping DNS pre-check via environment variable for local development or networks
+        // Set FOCUS_NFE_SKIP_DNS_CHECK=1 to bypass the dns_get_record call
+        $skipDns = false;
+        $envSkip = getenv('FOCUS_NFE_SKIP_DNS_CHECK');
+        if ($envSkip !== false && $envSkip !== null && $envSkip !== '') {
+            $skipDns = in_array(strtolower($envSkip), ['1','true','yes','on'], true);
+        }
         if ($host) {
             // strip brackets if IPv6 literal provided (e.g. [::1])
             $host_trim = trim($host, "[]");
@@ -58,18 +65,22 @@ class FocusNFeClient
             $is_ip = filter_var($host_trim, FILTER_VALIDATE_IP) !== false;
 
             if (!in_array($lower, $skip_hosts) && !$is_ip) {
-                // dns_get_record returns false on failure or empty array when not found
-                $records = @dns_get_record($host_trim, DNS_A + DNS_AAAA + DNS_CNAME);
-                if ($records === false || count($records) === 0) {
-                    throw new RuntimeException("DNS resolution failed for host: {$host_trim}.\n" .
-                        "Possible causes:\n" .
-                        " - The configured sandbox hostname is incorrect or no longer exists.\n" .
-                        " - Your machine/network cannot resolve external DNS.\n" .
-                        "What you can do:\n" .
-                        " - Verify the correct sandbox/ homolog endpoint with Focus NFe documentation/support.\n" .
-                        " - Override the URL via environment variable FOCUS_NFE_BASE_URL_SANDBOX or FOCUS_NFE_BASE_URL.\n" .
-                        " - For local development, point the config to a local mock server (e.g., http://localhost:8081).\n" .
-                        "Example (PowerShell, temporary): \$env:FOCUS_NFE_BASE_URL_SANDBOX='http://localhost:8081' (use in PowerShell)");
+                if (!$skipDns) {
+                    // dns_get_record returns false on failure or empty array when not found
+                    $records = @dns_get_record($host_trim, DNS_A + DNS_AAAA + DNS_CNAME);
+                    if ($records === false || count($records) === 0) {
+                        throw new RuntimeException("DNS resolution failed for host: {$host_trim}.\n" .
+                            "Possible causes:\n" .
+                            " - The configured hostname is incorrect or no longer exists.\n" .
+                            " - Your machine/network cannot resolve external DNS.\n" .
+                            "O que você pode fazer:\n" .
+                            " - Verifique o endpoint de homolog/produção com a documentação da Focus NFe.\n" .
+                            " - Override a URL via variáveis de ambiente: FOCUS_NFE_BASE_URL_HOMOLOG ou FOCUS_NFE_BASE_URL.\n" .
+                            " - Para desenvolvimento local, aponte o config para um mock local (ex.: http://localhost:8081).\n" .
+                            "Exemplo (PowerShell, temporário): \$env:FOCUS_NFE_BASE_URL_HOMOLOG='http://localhost:8081'\n");
+                    }
+                } else {
+                    // Skipping DNS pre-check as requested by environment (useful for local mocks)
                 }
             }
         }
@@ -276,5 +287,121 @@ class FocusNFeClient
         $path = '/nfe/' . rawurlencode($chave) . '/pdf';
         $res = $this->request('GET', $path, null, ['Accept: application/pdf']);
         return $res;
+    }
+
+    // --- Novos métodos para endpoints /v2/nfe e auxiliares ---
+
+    // GET /v2/nfe/{ref} - consulta a nota pela referência
+    public function getByReference(string $ref)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref);
+        return $this->request('GET', $path);
+    }
+
+    // DELETE /v2/nfe/{ref} - cancela uma nota pela referência
+    public function deleteByReference(string $ref)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref);
+        return $this->request('DELETE', $path);
+    }
+
+    // POST /v2/nfe/{ref}/carta_correcao - cria carta de correção
+    // $payload should be an associative array following provider spec (e.g. ['texto' => '...'])
+    public function createCartaCorrecao(string $ref, array $payload)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/carta_correcao';
+        return $this->request('POST', $path, $payload, ['Content-Type: application/json']);
+    }
+
+    // POST /v2/nfe/{ref}/ator_interessado - adiciona ator interessado
+    public function addAtorInteressado(string $ref, array $payload)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/ator_interessado';
+        return $this->request('POST', $path, $payload, ['Content-Type: application/json']);
+    }
+
+    // POST /v2/nfe/{ref}/insucesso_entrega - registra insucesso na entrega
+    public function markInsucessoEntrega(string $ref, array $payload)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/insucesso_entrega';
+        return $this->request('POST', $path, $payload, ['Content-Type: application/json']);
+    }
+
+    // DELETE /v2/nfe/{ref}/insucesso_entrega - cancela evento de insucesso
+    public function deleteInsucessoEntrega(string $ref)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/insucesso_entrega';
+        return $this->request('DELETE', $path);
+    }
+
+    // POST /v2/nfe/{ref}/email - envia email com cópia da nota
+    // $payload e.g. ['to' => 'email@exemplo.com', 'subject' => '...', 'message' => '...']
+    public function sendEmailByReference(string $ref, array $payload)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/email';
+        return $this->request('POST', $path, $payload, ['Content-Type: application/json']);
+    }
+
+    // POST /v2/nfe/inutilizacao - inutiliza numeração
+    // $payload should contain required fields (e.g. {"serie":..., "nNFIni":..., "nNFFin":..., "justificativa":...})
+    public function inutilizacao(array $payload)
+    {
+        $path = '/v2/nfe/inutilizacao';
+        return $this->request('POST', $path, $payload, ['Content-Type: application/json']);
+    }
+
+    // GET /v2/nfe/inutilizacoes - lista inutilizações
+    public function listInutilizacoes(array $query = [])
+    {
+        $qs = '';
+        if (!empty($query)) {
+            $qs = '?' . http_build_query($query);
+        }
+        $path = '/v2/nfe/inutilizacoes' . $qs;
+        return $this->request('GET', $path);
+    }
+
+    // POST /v2/nfe/importacao?ref=REFERENCIA - importa um XML como nota
+    // $xmlString is raw XML string
+    public function importacaoFromXml(string $ref, string $xmlString)
+    {
+        $path = '/v2/nfe/importacao?ref=' . rawurlencode($ref);
+        // Some providers expect multipart or JSON; try JSON wrapper first
+        $res = $this->request('POST', $path, ['xml' => $xmlString, 'ref' => $ref], ['Content-Type: application/json']);
+        if ($res['status'] >= 200 && $res['status'] < 300) {
+            return $res;
+        }
+        // fallback to raw XML post
+        return $this->request('POST', $path, $xmlString, ['Content-Type: application/xml']);
+    }
+
+    // POST /v2/nfe/danfe - Gera uma DANFe de Preview (aceita xml no body ou referência)
+    // $payload may be ['xml'=>..., 'ref'=>...] or other provider-specific options
+    public function danfePreview(array $payload)
+    {
+        $path = '/v2/nfe/danfe';
+        return $this->request('POST', $path, $payload, ['Content-Type: application/json']);
+    }
+
+    // ECONF endpoints: register, get, delete
+    // POST /v2/nfe/REFERENCIA/econf
+    public function econfRegister(string $ref, array $payload)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/econf';
+        return $this->request('POST', $path, $payload, ['Content-Type: application/json']);
+    }
+
+    // GET /v2/nfe/REFERENCIA/econf/NUMERO_PROTOCOLO
+    public function econfGet(string $ref, string $numeroProtocolo)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/econf/' . rawurlencode($numeroProtocolo);
+        return $this->request('GET', $path);
+    }
+
+    // DELETE /v2/nfe/REFERENCIA/econf/NUMERO_PROTOCOLO
+    public function econfDelete(string $ref, string $numeroProtocolo)
+    {
+        $path = '/v2/nfe/' . rawurlencode($ref) . '/econf/' . rawurlencode($numeroProtocolo);
+        return $this->request('DELETE', $path);
     }
 }

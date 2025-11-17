@@ -9,8 +9,9 @@ class TApplication extends AdiantiCoreApplication
     public static function run($debug = null)
     {
         new TSession;
-        ApplicationTranslator::setLanguage( TSession::getValue('user_language'), true ); // multi-lang
-        BuilderTranslator::setLanguage( TSession::getValue('user_language'), true ); // multi-lang
+        $userLang = TSession::getValue('user_language') ?: 'pt_BR';
+        ApplicationTranslator::setLanguage( $userLang, true ); // multi-lang
+        BuilderTranslator::setLanguage( $userLang, true ); // multi-lang
         
         if (! empty($_REQUEST['token_mobile']))
         {

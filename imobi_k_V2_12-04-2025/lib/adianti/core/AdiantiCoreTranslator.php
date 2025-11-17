@@ -513,7 +513,8 @@ class AdiantiCoreTranslator
     public static function getLanguage()
     {
         $instance = self::getInstance();
-        return $instance->lang;
+        // Fallback para 'pt' quando não definido para evitar avisos de índice nulo
+        return $instance->lang ?: 'pt';
     }
     
     /**

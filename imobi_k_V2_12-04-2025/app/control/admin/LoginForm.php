@@ -128,6 +128,8 @@ class LoginForm extends TPage
         $wrapper->add($divLogo);
         $wrapper->add($h3);
         $wrapper->add($this->form);
+
+        // (rollback) removed fallback JS instrumentation
         
         // add the form to the page
         parent::add($wrapper);
@@ -220,6 +222,7 @@ class LoginForm extends TPage
     {
         try
         {
+            // (rollback) removed debug instrumentation
             $data = (object) $param;
             
             TSession::regenerate();
@@ -240,6 +243,7 @@ class LoginForm extends TPage
             $single_user_session = $ini['permission']['single_user_session'] ?? false;
             
             $user = ApplicationAuthenticationService::authenticate($data->login, $data->password, false);
+            // (rollback) removed debug instrumentation
             
             if ($multiunit == '1' && $request_unit_after_login == '1' && empty($data->unit_id))
             {
@@ -321,15 +325,18 @@ class LoginForm extends TPage
                 $frontpage = $user->frontpage;
                 if (!empty($param['previous_class']) && $param['previous_class'] !== 'LoginForm')
                 {
+                    // rollback: remove debug messages
                     AdiantiCoreApplication::gotoPage($param['previous_class'], $param['previous_method'], unserialize($param['previous_parameters'])); // reload
                 }
                 else if ($frontpage instanceof SystemProgram and $frontpage->controller)
                 {
+                    // rollback: remove debug messages
                     AdiantiCoreApplication::gotoPage($frontpage->controller); // reload
                     TSession::setValue('frontpage', $frontpage->controller);
                 }
                 else
                 {
+                    // rollback: remove debug messages
                     AdiantiCoreApplication::gotoPage('EmptyPage'); // reload
                     TSession::setValue('frontpage', 'EmptyPage');
                 }
@@ -343,6 +350,7 @@ class LoginForm extends TPage
 
             new TMessage('error',$e->getMessage());
             TTransaction::rollback();
+            // (rollback) removed debug instrumentation
             sleep(2);
         }
     }

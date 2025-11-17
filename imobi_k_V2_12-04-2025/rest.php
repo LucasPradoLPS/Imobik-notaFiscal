@@ -1,8 +1,75 @@
 <?php
 header('Content-Type: application/json; charset=utf-8');
 
+// --- Early instrumentation: capture uncaught exceptions and fatal errors to tmp/php_errors.log ---
+$earlyLogFile = __DIR__ . '/../tmp/php_errors.log';
+if (!file_exists(dirname($earlyLogFile))) {
+    @mkdir(dirname($earlyLogFile), 0755, true);
+}
+
+set_exception_handler(function($e) use ($earlyLogFile) {
+    $msg = date('c') . " EARLY EXCEPTION: " . $e->getMessage() . "\n";
+    if (method_exists($e, 'getTraceAsString')) {
+        $msg .= $e->getTraceAsString() . "\n";
+    }
+    @file_put_contents($earlyLogFile, $msg . "\n", FILE_APPEND);
+    http_response_code(500);
+    echo json_encode(['status' => 'error', 'data' => $e->getMessage()]);
+    exit;
+});
+
+register_shutdown_function(function() use ($earlyLogFile) {
+    $err = error_get_last();
+    if ($err !== null) {
+        $msg = date('c') . " EARLY FATAL: " . print_r($err, true) . "\n";
+        @file_put_contents($earlyLogFile, $msg, FILE_APPEND);
+    }
+});
+
 // initialization script
 require_once 'init.php';
+
+// --- Instrumentation: capture uncaught exceptions and fatal errors to tmp/php_errors.log ---
+$logFile = __DIR__ . '/../tmp/php_errors.log';
+if (!file_exists(dirname($logFile))) {
+    @mkdir(dirname($logFile), 0755, true);
+}
+
+function imobi_log_exception($e)
+{
+    global $logFile;
+    $msg = date('c') . " EXCEPTION: " . $e->getMessage() . "\n";
+    if (method_exists($e, 'getTraceAsString')) {
+        $msg .= $e->getTraceAsString() . "\n";
+    }
+    @file_put_contents($logFile, $msg . "\n", FILE_APPEND);
+}
+
+set_exception_handler(function($e) {
+    imobi_log_exception($e);
+    http_response_code(500);
+    echo json_encode(['status' => 'error', 'data' => $e->getMessage()]);
+    exit;
+});
+
+set_error_handler(function($severity, $message, $file, $line) {
+    global $logFile;
+    $msg = date('c') . " ERROR: {$message} in {$file}:{$line}\n";
+    @file_put_contents($logFile, $msg, FILE_APPEND);
+    // Let PHP internal handler run as well
+    return false;
+});
+
+register_shutdown_function(function() {
+    global $logFile;
+    $err = error_get_last();
+    if ($err !== null) {
+        $msg = date('c') . " FATAL: " . print_r($err, true) . "\n";
+        @file_put_contents($logFile, $msg, FILE_APPEND);
+    }
+});
+
+// --- end instrumentation ---
 
 class AdiantiRestServer
 {
@@ -59,6 +126,9 @@ class AdiantiRestServer
         }
         catch (Exception $e)
         {
+            if (function_exists('imobi_log_exception')) {
+                imobi_log_exception($e);
+            }
             if(200 === http_response_code())
             {
                 http_response_code(500);
@@ -68,6 +138,9 @@ class AdiantiRestServer
         }
         catch (Error $e)
         {
+            if (function_exists('imobi_log_exception')) {
+                imobi_log_exception($e);
+            }
             if(200 === http_response_code())
             {
                 http_response_code(500);

@@ -1,0 +1,89 @@
+test-write $(Get-Date)
+2025-11-14T14:44:38-03:00 EXCEPTION: Erro de autorização
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\scripts\include_rest_cli.php(13): include('...')
+#2 {main}
+
+2025-11-14T14:44:46-03:00 EXCEPTION: Erro de autorização
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#1 {main}
+
+2025-11-14T15:00:45-03:00 EXCEPTION: EspoCRM base URL not provided. Set ESPOCRM_BASE_URL or pass $baseUrl.
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(54): EspoCrmClient->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(78): EspoCrmRestService::buildClient()
+#2 [internal function]: EspoCrmRestService::getContacts()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\lib\adianti\core\AdiantiCoreApplication.php(183): call_user_func()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#5 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#6 {main}
+
+2025-11-14T15:00:56-03:00 EXCEPTION: EspoCRM base URL not provided. Set ESPOCRM_BASE_URL or pass $baseUrl.
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(54): EspoCrmClient->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(78): EspoCrmRestService::buildClient()
+#2 [internal function]: EspoCrmRestService::getContacts()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\lib\adianti\core\AdiantiCoreApplication.php(183): call_user_func()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#5 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#6 {main}
+
+2025-11-14T15:10:21-03:00 EXCEPTION: EspoCRM base URL not provided. Set ESPOCRM_BASE_URL or pass $baseUrl.
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(54): EspoCrmClient->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(143): EspoCrmRestService::buildClient()
+#2 [internal function]: EspoCrmRestService::createContact()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\lib\adianti\core\AdiantiCoreApplication.php(183): call_user_func()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#5 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#6 {main}
+
+2025-11-14T15:11:03-03:00 EXCEPTION: EspoCRM base URL not provided. Set ESPOCRM_BASE_URL or pass $baseUrl.
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(54): EspoCrmClient->__construct()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\service\rest\EspoCrmRestService.php(143): EspoCrmRestService::buildClient()
+#2 [internal function]: EspoCrmRestService::createContact()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\lib\adianti\core\AdiantiCoreApplication.php(183): call_user_func()
+#4 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#5 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#6 {main}
+
+2025-11-14T15:12:58-03:00 EXCEPTION: Método EspoCrmRestService::updateContact&id=m6917712a6b7f6 não encontrado
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#2 {main}
+
+2025-11-14T15:12:58-03:00 EXCEPTION: Método EspoCrmRestService::deleteContact&id=m6917712a6b7f6 não encontrado
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#2 {main}
+
+2025-11-14T15:12:59-03:00 EXCEPTION: Método EspoCrmRestService::updateLead&id=m6917712b14232 não encontrado
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#2 {main}
+
+2025-11-14T15:12:59-03:00 EXCEPTION: Método EspoCrmRestService::deleteLead&id=m6917712b14232 não encontrado
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#2 {main}
+
+2025-11-17T11:16:50+00:00 ERROR: Undefined array key "" in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\util\ApplicationTranslator.class.php:1205
+2025-11-17T11:16:50+00:00 ERROR: Trying to access array offset on value of type null in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\app\lib\util\ApplicationTranslator.class.php:1205
+2025-11-17T11:16:50+00:00 ERROR: Exception::__construct(): Passing null to parameter #1 ($message) of type string is deprecated in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php:92
+2025-11-17T11:16:50+00:00 EXCEPTION: 
+#0 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#1 {main}
+
+2025-11-17T11:16:50+00:00 EARLY FATAL: Array
+(
+    [type] => 8192
+    [message] => Exception::__construct(): Passing null to parameter #1 ($message) of type string is deprecated
+    [file] => C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php
+    [line] => 92
+)
+
+2025-11-17T11:16:50+00:00 FATAL: Array
+(
+    [type] => 8192
+    [message] => Exception::__construct(): Passing null to parameter #1 ($message) of type string is deprecated
+    [file] => C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php
+    [line] => 92
+)
+

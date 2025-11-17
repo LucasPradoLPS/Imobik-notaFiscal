@@ -137,25 +137,25 @@ class BuilderTemplateParser
         $libraries = file_get_contents("app/templates/{$theme}/libraries.html");
         $user_theme = BuilderService::getTheme(TSession::getValue('userid'));
 
-        $content   = str_replace('{LIBRARIES}', $libraries, $content);
-        $content   = str_replace('{class}',     $class, $content);
-        $content   = str_replace('{template}',  $theme, $content);
-        $content   = str_replace('{lang}',      AdiantiCoreTranslator::getLanguage(), $content);
-        $content   = str_replace('{debug}',     isset($ini['general']['debug']) ? $ini['general']['debug'] : '1', $content);
+        $content   = str_replace('{LIBRARIES}', (string) $libraries, $content);
+        $content   = str_replace('{class}',     (string) $class, $content);
+        $content   = str_replace('{template}',  (string) $theme, $content);
+        $content   = str_replace('{lang}',      (string) (AdiantiCoreTranslator::getLanguage() ?? ''), $content);
+        $content   = str_replace('{debug}',     (string) (isset($ini['general']['debug']) ? $ini['general']['debug'] : '1'), $content);
         $content   = str_replace('{login}',     (string) TSession::getValue('login'), $content);
-        $content   = str_replace('{title}',     isset($ini['general']['title']) ? $ini['general']['title'] : '', $content);
+        $content   = str_replace('{title}',     (string) (isset($ini['general']['title']) ? $ini['general']['title'] : ''), $content);
         $content   = str_replace('{username}',  (string) TSession::getValue('username'), $content);
         $content   = str_replace('{usermail}',  (string) TSession::getValue('usermail'), $content);
         $content   = str_replace('{frontpage}', (string) TSession::getValue('frontpage'), $content);
         $content   = str_replace('{userunitid}', (string) TSession::getValue('userunitid'), $content);
         $content   = str_replace('{userunitname}', (string) TSession::getValue('userunitname'), $content);
-        $content   = str_replace('{query_string}', $_SERVER["QUERY_STRING"] ?? '', $content);
-        $content   = str_replace('{use_tabs}', $use_tabs, $content);
-        $content   = str_replace('{store_tabs}', $store_tabs, $content);
-        $content   = str_replace('{use_mdi_windows}', $use_mdi_windows, $content);
-        $content   = str_replace('{application}', $ini['general']['application'], $content);
-        $content   = str_replace('{user_theme}', $user_theme, $content);
-        $content   = str_replace('{dialog_box_type}', $dialog_box_type, $content);
+        $content   = str_replace('{query_string}', (string) ($_SERVER["QUERY_STRING"] ?? ''), $content);
+        $content   = str_replace('{use_tabs}', (string) $use_tabs, $content);
+        $content   = str_replace('{store_tabs}', (string) $store_tabs, $content);
+        $content   = str_replace('{use_mdi_windows}', (string) $use_mdi_windows, $content);
+        $content   = str_replace('{application}', (string) ($ini['general']['application'] ?? ''), $content);
+        $content   = str_replace('{user_theme}', (string) $user_theme, $content);
+        $content   = str_replace('{dialog_box_type}', (string) $dialog_box_type, $content);
 
         if($multiunit && $change_unit && is_array(TSession::getValue('userunitids')) && count(TSession::getValue('userunitids')) > 1)
         {
@@ -168,21 +168,21 @@ class BuilderTemplateParser
         
         $css       = TPage::getLoadedCSS();
         $js        = TPage::getLoadedJS();
-        $content   = str_replace('{HEAD}', $css.$js, $content);
+        $content   = str_replace('{HEAD}', (string) ($css.$js), $content);
         
-        $content = str_replace('{LIBRARIES_USER}', $libraries_user, $content);
-        $content = str_replace('{LIBRARIES_BUILDER}', $libraries_builder, $content);
-        $content = str_replace('{LIBRARIES_THEME}', $libraries_theme, $content);
-        $content = str_replace('{template}', $theme, $content);
-        $content = str_replace('{top_menu_var}', $top_menu_var, $content);
-        $content = str_replace('{lang}', AdiantiCoreTranslator::getLanguage(), $content);
-        $content = str_replace('{debug}', isset($ini['general']['debug']) ? $ini['general']['debug'] : '1', $content);
-        $content = str_replace('{verify_messages_menu}', isset($ini['general']['verify_messages_menu']) ? $ini['general']['verify_messages_menu'] : 'false', $content);
-        $content = str_replace('{verify_notifications_menu}', isset($ini['general']['verify_notifications_menu']) ? $ini['general']['verify_notifications_menu'] : 'false', $content);
-        $content = str_replace('{use_tabs}', $use_tabs, $content);
-        $content = str_replace('{store_tabs}', $store_tabs, $content);
-        $content = str_replace('{use_mdi_windows}', $use_mdi_windows, $content);
-        $content = str_replace('{application}', $ini['general']['application'], $content);
+        $content = str_replace('{LIBRARIES_USER}', (string) $libraries_user, $content);
+        $content = str_replace('{LIBRARIES_BUILDER}', (string) $libraries_builder, $content);
+        $content = str_replace('{LIBRARIES_THEME}', (string) $libraries_theme, $content);
+        $content = str_replace('{template}', (string) $theme, $content);
+        $content = str_replace('{top_menu_var}', (string) $top_menu_var, $content);
+        $content = str_replace('{lang}', (string) (AdiantiCoreTranslator::getLanguage() ?? ''), $content);
+        $content = str_replace('{debug}', (string) (isset($ini['general']['debug']) ? $ini['general']['debug'] : '1'), $content);
+        $content = str_replace('{verify_messages_menu}', (string) (isset($ini['general']['verify_messages_menu']) ? $ini['general']['verify_messages_menu'] : 'false'), $content);
+        $content = str_replace('{verify_notifications_menu}', (string) (isset($ini['general']['verify_notifications_menu']) ? $ini['general']['verify_notifications_menu'] : 'false'), $content);
+        $content = str_replace('{use_tabs}', (string) $use_tabs, $content);
+        $content = str_replace('{store_tabs}', (string) $store_tabs, $content);
+        $content = str_replace('{use_mdi_windows}', (string) $use_mdi_windows, $content);
+        $content = str_replace('{application}', (string) ($ini['general']['application'] ?? ''), $content);
 
         // Remove all comments
         $content = preg_replace('/<!--.*?-->/s', '', $content);

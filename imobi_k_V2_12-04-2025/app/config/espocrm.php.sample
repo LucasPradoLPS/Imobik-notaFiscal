@@ -1,0 +1,8 @@
+<?php
+// Sample EspoCRM config. Copy to app/config/espocrm.php and fill values.
+return [
+    'base_url' => env('ESPOCRM_BASE_URL') ?: 'http://127.0.0.1:8888',
+    'api_key'  => env('ESPOCRM_API_KEY') ?: 'YOUR_API_KEY_HERE',
+    'auth_type'=> env('ESPOCRM_AUTH_TYPE') ?: 'apikey',
+    'webhook_token' => env('ESPOCRM_WEBHOOK_TOKEN') ?: null,
+];
