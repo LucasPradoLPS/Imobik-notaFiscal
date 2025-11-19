@@ -1,0 +1,26 @@
+2025-11-19T16:05:33+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+2025-11-19T16:05:33+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:09:21+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+2025-11-19T16:09:21+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:09:24+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+2025-11-19T16:09:24+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:09:35+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+2025-11-19T16:09:35+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:09:37+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+2025-11-19T16:09:37+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:09:39+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+2025-11-19T16:09:39+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:10:27+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+2025-11-19T16:10:27+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:10:33+00:00 | start | method=GET | query=class=EspoCrmProxy&method=get&entity=Account&id=a1
+2025-11-19T16:10:33+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:10:50+00:00 | start | method=GET | query=class=EspoCrmProxy&method=update&entity=Account&id=a1
+2025-11-19T16:10:50+00:00 | rawLen=234 | parsed={"name":"Lucas","emailAddress":"lucas@gmail.com","description":"dkjenfnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"} | _POST=[]
+2025-11-19T16:10:50+00:00 | adjusted-method-to=PUT due-to-proxyMethod=update
+2025-11-19T16:10:50+00:00 | put-input={"name":"Lucas","emailAddress":"lucas@gmail.com","description":"dkjenfnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"}
+2025-11-19T16:10:58+00:00 | start | method=GET | query=class=EspoCrmProxy&method=get&entity=Account&id=a1
+2025-11-19T16:10:58+00:00 | rawLen=0 | parsed=null | _POST=[]
+2025-11-19T16:11:03+00:00 | start | method=GET | query=class=EspoCrmProxy&method=update&entity=Account&id=a1
+2025-11-19T16:11:03+00:00 | rawLen=72 | parsed={"name":"Lucas","emailAddress":"lucas@gmail.com","description":"Gastos"} | _POST=[]
+2025-11-19T16:11:03+00:00 | adjusted-method-to=PUT due-to-proxyMethod=update
+2025-11-19T16:11:03+00:00 | put-input={"name":"Lucas","emailAddress":"lucas@gmail.com","description":"Gastos"}

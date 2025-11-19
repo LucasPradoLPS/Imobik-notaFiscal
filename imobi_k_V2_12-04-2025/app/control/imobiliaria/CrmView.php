@@ -155,6 +155,21 @@ window.CrmView = {
   pageSize: PAGESIZE,
   lastTotal: 0,
   imovelIntent: {},
+  // Simple in-memory cache for prefetched lists to make tab switches instantaneous
+  cache: {},
+  prefetchAll() {
+    const ents = ['Contact','Lead','Account'];
+    ents.forEach(e=>{
+      // don't re-fetch the currently visible entity here (it will be fetched by reload)
+      if (e === this.entity) return;
+      const url = `engine.php?class=EspoCrmProxy&method=list&entity=${e}&maxSize=${this.pageSize}&offset=0`;
+      this.fetchJson(url).then(j=>{
+        if (j && j.success && Array.isArray(j.data)) {
+          this.cache[e] = j.data;
+        }
+      }).catch(()=>{});
+    });
+  },
   // Column specs for entities
   leadColumns: [
     {keys:['firstName','name'], label:'Nome'},
@@ -203,7 +218,23 @@ window.CrmView = {
     this.entity = ent;
     this.offset = 0;
     this.updateTabs();
-    this.reload(true);
+    // If we have prefetched data for this entity, render immediately from cache
+    if (this.cache[ent] && Array.isArray(this.cache[ent])) {
+      CrmView.renderHeaders();
+      const tbody = document.getElementById('crm_tbody');
+      tbody.innerHTML = '';
+      const data = this.cache[ent];
+      data.forEach(row => {
+        const tr = CrmView.renderRow(row);
+        tbody.appendChild(tr);
+      });
+      CrmView.renderPager();
+      // Refresh cache in background to keep it fresh
+      const url = `engine.php?class=EspoCrmProxy&method=list&entity=${ent}&maxSize=${this.pageSize}&offset=0`;
+      this.fetchJson(url).then(j=>{ if (j && j.success && Array.isArray(j.data)) this.cache[ent]=j.data; }).catch(()=>{});
+    } else {
+      this.reload(true);
+    }
   },
   fetchJson(url, options={}) {
     return fetch(url, Object.assign({ headers: { 'Accept':'application/json' } }, options))
@@ -420,6 +451,11 @@ window.CrmView = {
         const updated = (j.data && typeof j.data === 'object') ? j.data : null;
         if (updated && updated.id) {
           CrmView.upsertRow(updated);
+          // sincroniza cache para refletir a atualização imediatamente
+          if (CrmView.cache && Array.isArray(CrmView.cache[CrmView.entity])) {
+            const arr = CrmView.cache[CrmView.entity];
+            for (let i=0;i<arr.length;i++){ if (arr[i] && arr[i].id === updated.id) { arr[i] = updated; break; } }
+          }
           document.getElementById('crm_status').innerText='Atualizado';
           CrmView.closeModal();
         } else {
@@ -483,6 +519,10 @@ window.CrmView = {
         const created = (j.data && typeof j.data === 'object') ? j.data : null;
         if (created && created.id) {
           CrmView.upsertRow(created);
+          // sincroniza cache para que trocas de aba mostrem o novo item imediatamente
+          if (CrmView.cache && Array.isArray(CrmView.cache[CrmView.entity])) {
+            CrmView.cache[CrmView.entity].unshift(created);
+          }
           document.getElementById('crm_status').innerText = 'Criado com sucesso';
           CrmView.closeModal();
         } else {
@@ -504,6 +544,10 @@ window.CrmView = {
         if (j.success) {
           document.getElementById('crm_status').innerText = 'Excluído';
           CrmView.closeModal();
+          // remover do cache local para manter UI consistente
+          if (CrmView.cache && Array.isArray(CrmView.cache[CrmView.entity])) {
+            CrmView.cache[CrmView.entity] = CrmView.cache[CrmView.entity].filter(it=>it && it.id !== id);
+          }
           CrmView.reload(true);
         } else {
           document.getElementById('crm_status').innerText = 'Falha ao excluir: '+ (j.error||'');
@@ -565,6 +609,8 @@ function initCrmView(){
   }
   CrmView.updateTabs();
   CrmView.reload(true);
+  // prefetch other entities so tab switches appear instant
+  if (typeof CrmView.prefetchAll === 'function') CrmView.prefetchAll();
 }
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initCrmView);

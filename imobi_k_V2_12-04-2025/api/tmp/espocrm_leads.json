@@ -1,1 +1,1 @@
-[{"id":"l1","firstName":"Lead","lastName":"One","email":"lead1@example.com"},{"id":"l2","firstName":"Lead","lastName":"Two","email":"lead2@example.com"}]
+[{"id":"l1","firstName":"Lucas","lastName":"Prado","email":"lead1@example.com","postalCode":"35701484","city":"Sete Lagoas","contact":"31999380844","description":"Salario","emailAddress":"lucas@gmail.com","status":"ativo","phoneNumber":"31999380844"},{"id":"l2","firstName":"Lead","lastName":"Two","email":"lead2@example.com"}]
