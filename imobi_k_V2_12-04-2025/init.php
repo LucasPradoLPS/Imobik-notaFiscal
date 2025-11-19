@@ -88,7 +88,7 @@ if (file_exists($crmProxyPath)) {
         if (strncmp($line, "\xEF\xBB\xBF", 3) === 0) {
             $line = substr($line, 3);
         }
-        $line = trim($line);
+        $line = trim($line ?? '');
         if ($line === '' || $line[0] === '#' ) {
             continue;
         }

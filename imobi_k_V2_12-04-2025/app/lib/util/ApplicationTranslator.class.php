@@ -1194,11 +1194,16 @@ class ApplicationTranslator
         // get the self unique instance
         $instance = self::getInstance();
         // search by the numeric index of the word
-        
-        if (!empty($source_language)
-            && isset($instance->sourceMessages[$source_language])
-            && isset($instance->sourceMessages[$source_language][$word])
-            && !is_null($instance->sourceMessages[$source_language][$word]))
+        // normalize inputs to avoid null/undefined index warnings
+        $source_language = is_null($source_language) ? '' : (string) $source_language;
+        $word = is_null($word) ? '' : (string) $word;
+
+        if ($source_language !== ''
+            && is_array($instance->sourceMessages)
+            && array_key_exists($source_language, $instance->sourceMessages)
+            && is_array($instance->sourceMessages[$source_language])
+            && array_key_exists($word, $instance->sourceMessages[$source_language])
+            && $instance->sourceMessages[$source_language][$word] !== null)
         {
             $key = $instance->sourceMessages[$source_language][$word]; //$key = array_search($word, $instance->messages['en']);
             
@@ -1223,7 +1228,7 @@ class ApplicationTranslator
         }
         else
         {
-            return 'Message not found: '. $word;
+            return 'Message not found: '. ($word === '' ? '(empty)' : $word);
         }
     }
     

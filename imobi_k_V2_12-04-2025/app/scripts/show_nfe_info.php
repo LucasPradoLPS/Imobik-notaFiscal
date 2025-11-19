@@ -13,11 +13,11 @@ $xpath = new DOMXPath($doc);
 
 // Encontrar CNPJ do emitente
 $emitCnpjNodes = $xpath->query("//*[local-name()='emit']/*[local-name()='CNPJ']");
-$emitCnpj = ($emitCnpjNodes->length > 0) ? trim($emitCnpjNodes->item(0)->nodeValue) : '(não encontrado)';
+$emitCnpj = ($emitCnpjNodes->length > 0) ? trim($emitCnpjNodes->item(0)->nodeValue ?? '') : '(não encontrado)';
 
 // Encontrar CNPJ/CPF do destinatário
 $destCnpjNodes = $xpath->query("//*[local-name()='dest']/*[local-name()='CNPJ' or local-name()='CPF']");
-$destId = ($destCnpjNodes->length > 0) ? trim($destCnpjNodes->item(0)->nodeValue) : '(não encontrado)';
+$destId = ($destCnpjNodes->length > 0) ? trim($destCnpjNodes->item(0)->nodeValue ?? '') : '(não encontrado)';
 
 echo "Emitente CNPJ: " . $emitCnpj . "\n";
 echo "Destinatário CNPJ/CPF: " . $destId . "\n\n";

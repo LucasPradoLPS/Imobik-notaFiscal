@@ -29,6 +29,17 @@ class TApplication extends AdiantiCoreApplication
 
         if ($_REQUEST)
         {
+            // lightweight request tracing to help debug proxy/REST calls
+            try {
+                $logFile = __DIR__ . '/tmp/engine_access_debug.log';
+                $raw = @file_get_contents('php://input');
+                // preserve raw body for later internal handlers (php://input can be consumed)
+                $_SERVER['ESPCRM_RAW_BODY'] = $raw === false ? '' : $raw;
+                $entry = sprintf("%s | method=%s | query=%s | bodyLen=%d\n", date('c'), $_SERVER['REQUEST_METHOD'] ?? 'NA', $_SERVER['QUERY_STRING'] ?? '', $raw === false ? -1 : strlen($raw));
+                @file_put_contents($logFile, $entry, FILE_APPEND);
+            } catch (Throwable $e) {
+                // ignore logging errors in debug probe
+            }
             $ini = AdiantiApplicationConfig::get();
             
             $class  = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';

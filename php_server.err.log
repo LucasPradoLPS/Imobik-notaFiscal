@@ -1,0 +1,2371 @@
+[Wed Nov 19 09:34:36 2025] PHP 8.2.12 Development Server (http://127.0.0.1:8080) started
+[Wed Nov 19 09:34:37 2025] 127.0.0.1:53668 Accepted
+[Wed Nov 19 09:34:37 2025] 127.0.0.1:53668 [200]: POST /engine.php?class=EspoCrmProxy&method=create&entity=Contact
+[Wed Nov 19 09:34:37 2025] 127.0.0.1:53668 Closing
+[Wed Nov 19 09:35:34 2025] 127.0.0.1:64518 Accepted
+[Wed Nov 19 09:35:34 2025] 127.0.0.1:64518 [200]: POST /engine.php?class=EspoCrmProxy&method=create&entity=Contact
+[Wed Nov 19 09:35:34 2025] 127.0.0.1:64518 Closing
+[Wed Nov 19 09:36:55 2025] 127.0.0.1:59536 Accepted
+[Wed Nov 19 09:36:56 2025] 127.0.0.1:59536 [200]: POST /engine.php?class=EspoCrmProxy&method=create&entity=Contact
+[Wed Nov 19 09:36:56 2025] 127.0.0.1:59536 Closing
+[Wed Nov 19 09:38:31 2025] 127.0.0.1:51882 Accepted
+[Wed Nov 19 09:38:31 2025] 127.0.0.1:51882 [200]: POST /engine.php?class=EspoCrmProxy&method=create&entity=Contact
+[Wed Nov 19 09:38:31 2025] 127.0.0.1:51882 Closing
+[Wed Nov 19 09:44:18 2025] 127.0.0.1:52010 Accepted
+[Wed Nov 19 09:44:18 2025] 127.0.0.1:62718 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52010 [200]: GET /index.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52010 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62718 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57980 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62718 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57980 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57980 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49802 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:65179 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49802 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49334 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:65179 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49521 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49334 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62515 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49521 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49802 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62515 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49334 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49521 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62515 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49736 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49736 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49736 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:65179 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57506 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54031 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57506 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54031 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49530 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:51252 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49530 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57506 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64254 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:51252 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64254 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54031 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:58203 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49530 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:58203 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:51252 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64254 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62759 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:58203 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62759 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62759 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52659 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55387 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57245 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52659 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55387 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57245 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55156 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55156 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52659 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64870 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55387 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57245 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:61387 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64870 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57508 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:61387 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55156 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49795 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57508 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52058 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49795 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64870 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57388 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52058 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:61387 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50223 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57388 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57508 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64722 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50223 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:49795 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64722 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52058 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:60417 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57388 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55541 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:60417 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55541 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50223 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64722 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:60417 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:53677 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62730 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:53677 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57066 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62730 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:53677 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62730 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50800 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57066 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50800 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:57066 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50800 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50381 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50381 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50381 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:63630 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:63727 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52027 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50304 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:63630 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:63727 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52027 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50304 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:63630 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:63727 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:59603 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52027 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52216 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:59603 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55541 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50304 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:60861 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52216 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54115 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:60861 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54361 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54115 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:59603 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50570 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54361 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:52216 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50570 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:60861 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54115 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:54361 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:50570 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64059 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55716 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64059 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55716 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:64059 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:55716 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:59220 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:59220 [200]: GET /lib/independent/js/splide.min.js.map
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:59220 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62688 Accepted
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62688 [200]: GET /lib/bootstrap/css/bootstrap.min.css.map
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:62688 Closing
+[Wed Nov 19 09:44:19 2025] 127.0.0.1:61184 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:61184 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:61184 Closing
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:61149 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51514 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:61149 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:63667 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51514 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:57745 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:63667 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51869 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:57745 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:61149 Closing
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:58796 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51869 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51514 Closing
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51983 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:58796 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763556260009
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:63667 Closing
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:52204 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51983 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:57745 Closing
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:58201 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:52204 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51869 Closing
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:64781 Accepted
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:58201 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:58796 Closing
+[Wed Nov 19 09:44:20 2025] 127.0.0.1:51131 Accepted
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:64781 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:64781 Closing
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:51983 Closing
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:54828 Accepted
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:51131 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:51131 Closing
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:52204 Closing
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:54828 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:54828 Closing
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:58201 Closing
+[Wed Nov 19 09:44:21 2025] 127.0.0.1:53224 Accepted
+[Wed Nov 19 09:44:22 2025] 127.0.0.1:53224 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 09:44:22 2025] 127.0.0.1:53224 Closing
+[Wed Nov 19 09:44:24 2025] 127.0.0.1:56116 Accepted
+[Wed Nov 19 09:44:24 2025] 127.0.0.1:56116 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 09:44:24 2025] 127.0.0.1:56116 Closing
+[Wed Nov 19 09:44:26 2025] 127.0.0.1:63084 Accepted
+[Wed Nov 19 09:44:26 2025] 127.0.0.1:63084 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 09:44:26 2025] 127.0.0.1:63084 Closing
+[Wed Nov 19 09:48:58 2025] 127.0.0.1:55423 Accepted
+[Wed Nov 19 09:48:58 2025] 127.0.0.1:61086 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55423 [200]: GET /index.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55423 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61086 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61086 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55799 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55799 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55799 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58566 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62996 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62046 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:52915 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57538 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62996 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58566 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62046 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:52915 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57538 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62996 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62046 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:52915 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57538 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:56135 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57696 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49756 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65450 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:56135 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57696 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49756 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65450 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:56135 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58566 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57696 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65450 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63449 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49756 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63449 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63449 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55439 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58610 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:53772 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55439 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58610 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:53772 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59275 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55439 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59275 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58610 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:53772 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59275 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64638 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64638 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64638 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:50543 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57875 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57655 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61339 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:50543 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57875 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57655 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61339 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57191 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64545 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:50543 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57875 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57655 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61339 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57191 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64545 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57191 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64545 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54527 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49385 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61171 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61753 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63047 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:50060 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54527 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49385 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61171 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61753 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63047 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:50060 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54527 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49385 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63047 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61171 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61753 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65169 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63985 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65169 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63985 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65169 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:63985 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:52605 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:51313 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:52605 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:51313 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:52605 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:51313 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59840 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59840 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59840 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58075 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58075 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54790 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:58075 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59195 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54069 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54790 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59195 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54069 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:50060 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54790 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59195 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:54069 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62794 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62794 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:62794 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64595 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61751 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55665 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64595 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61751 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55665 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:64595 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:61751 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:55665 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59258 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49433 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65273 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:60519 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59258 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49433 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65273 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:60519 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:59258 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:49433 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:65273 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:60519 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:56335 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:56335 [200]: GET /lib/independent/js/splide.min.js.map
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:56335 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57219 Accepted
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57219 [200]: GET /lib/bootstrap/css/bootstrap.min.css.map
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:57219 Closing
+[Wed Nov 19 09:48:59 2025] 127.0.0.1:52832 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:52832 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:52832 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:57990 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:50472 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:57990 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:59930 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:50472 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56768 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:59930 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:62276 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56768 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:57990 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56424 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:62276 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:50472 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:65503 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56424 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763556539914
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:59930 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:65503 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56768 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56826 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:62276 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:52054 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56424 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56826 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:52054 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:65503 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:56826 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:52054 Closing
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:65141 Accepted
+[Wed Nov 19 09:49:00 2025] 127.0.0.1:64194 Accepted
+[Wed Nov 19 09:49:01 2025] 127.0.0.1:65141 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 09:49:01 2025] 127.0.0.1:65141 Closing
+[Wed Nov 19 09:49:01 2025] 127.0.0.1:64592 Accepted
+[Wed Nov 19 09:49:02 2025] 127.0.0.1:64194 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 09:49:02 2025] 127.0.0.1:64194 Closing
+[Wed Nov 19 09:49:02 2025] 127.0.0.1:64592 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 09:49:02 2025] 127.0.0.1:64592 Closing
+[Wed Nov 19 09:49:02 2025] 127.0.0.1:56854 Accepted
+[Wed Nov 19 09:49:02 2025] 127.0.0.1:56854 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 09:49:02 2025] 127.0.0.1:56854 Closing
+[Wed Nov 19 09:55:59 2025] 127.0.0.1:57992 Accepted
+[Wed Nov 19 09:55:59 2025] 127.0.0.1:56827 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57992 [200]: GET /index.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57992 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:56827 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:56827 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50905 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64157 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55272 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61664 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49494 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50905 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64157 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55272 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61664 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49494 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50905 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55272 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61664 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49494 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:52296 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:59849 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:52296 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:59849 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:52296 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:59849 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49788 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55062 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:58703 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64157 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49788 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55062 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:58703 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49788 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55062 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49876 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:58703 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49876 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64288 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49876 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49552 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64288 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49552 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64074 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64288 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49552 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64074 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64074 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64230 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:65018 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:63398 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64230 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:65018 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:63398 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64230 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55721 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:65018 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:63398 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50096 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57966 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55721 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50096 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57966 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55721 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50096 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57966 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60652 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64029 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60228 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:63553 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60652 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64029 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60228 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:63553 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:54645 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:54645 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64774 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60652 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64029 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60228 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64774 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:63553 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50920 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:65473 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:54645 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50920 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:65473 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:64774 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49984 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:65473 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49984 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49984 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61530 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57792 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61530 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57792 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61530 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57792 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55511 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55387 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55511 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55387 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55511 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55387 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60823 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49581 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:54535 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60823 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49581 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:54535 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:60823 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49581 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:54535 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57466 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49340 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:50920 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57466 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49340 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:57466 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55545 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:49340 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55545 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:55545 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:53826 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:53826 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:53826 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:52200 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:56180 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61953 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:53064 Accepted
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:52200 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:56180 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61953 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:53064 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:52200 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:56180 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:61953 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:53064 Closing
+[Wed Nov 19 09:56:00 2025] 127.0.0.1:53674 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:53674 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:53674 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:60370 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:61947 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:60370 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:59325 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:61947 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:60878 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:59325 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:63632 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:60878 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:60370 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:54457 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:63632 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:61947 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:49172 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:54457 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763556960636
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:59325 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:55629 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:49172 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:60878 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:50471 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:55629 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:63632 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:59075 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:50471 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:54457 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:59075 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:59075 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:49172 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:57434 Accepted
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:55629 Closing
+[Wed Nov 19 09:56:01 2025] 127.0.0.1:64107 Accepted
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:57434 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:57434 Closing
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:50471 Closing
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:64107 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:64107 Closing
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:62121 Accepted
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:62121 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 09:56:02 2025] 127.0.0.1:62121 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:63985 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59585 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:61430 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:63985 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59585 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:61430 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59585 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:63985 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:61430 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:51983 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:62099 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:51983 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50365 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:62099 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50365 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50742 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:51983 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:61357 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50742 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:61357 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:62099 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50365 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50742 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:61357 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:54735 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:55002 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:54735 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:55002 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:54735 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:62487 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:55002 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:52335 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:55668 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:62487 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:52335 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:53525 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:55668 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763556960636
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:53525 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:62487 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:52335 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:55668 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:53525 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50364 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:58696 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:64741 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50364 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:54881 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:58696 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:64741 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59032 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:54881 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59032 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:50364 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:58696 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:64741 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59032 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:54881 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59242 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59242 [200]: GET /lib/independent/js/splide.min.js.map
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:59242 Closing
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:56688 Accepted
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:56688 [200]: GET /lib/bootstrap/css/bootstrap.min.css.map
+[Wed Nov 19 09:56:06 2025] 127.0.0.1:56688 Closing
+[Wed Nov 19 10:02:14 2025] 127.0.0.1:64727 Accepted
+[Wed Nov 19 10:02:14 2025] 127.0.0.1:59042 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64727 [200]: GET /index.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64727 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59042 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59042 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60052 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60052 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60052 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55807 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56377 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56065 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55807 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56377 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56065 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55336 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53136 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55807 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55336 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53136 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56065 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55336 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53136 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64877 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49219 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64877 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49219 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64877 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49219 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56377 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64958 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:65358 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64958 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:65358 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53115 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53115 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64958 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:65358 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53115 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:63275 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:63275 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:63275 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51769 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60903 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58198 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51769 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60903 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58198 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51769 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60903 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58198 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49407 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49407 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49407 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62642 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62642 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62642 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52761 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52364 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52761 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52364 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52761 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52364 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58037 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53119 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59907 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54779 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58037 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53119 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59907 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54779 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58037 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:53119 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59907 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54779 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55214 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55214 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55214 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56978 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56978 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:56978 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59759 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59759 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:59759 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:57916 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51866 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64973 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62388 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:57916 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51866 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64973 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49919 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:57916 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62388 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64973 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49919 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62388 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49919 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51307 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52734 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51307 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52734 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60745 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60745 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51307 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52734 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60745 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55252 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51866 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:50429 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55252 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:50429 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:55252 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:50429 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54244 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51043 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52992 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54244 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51043 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52992 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49289 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49289 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:51043 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:52992 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54244 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:49289 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:63149 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:63149 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:63149 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62704 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54747 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60448 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62704 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54747 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60448 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:62704 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:54747 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:60448 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:61004 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:61004 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:61004 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:61250 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:61250 [200]: GET /lib/independent/js/splide.min.js.map
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:61250 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58523 Accepted
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58523 [200]: GET /lib/bootstrap/css/bootstrap.min.css.map
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:58523 Closing
+[Wed Nov 19 10:02:15 2025] 127.0.0.1:64363 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:64363 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:64363 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:54031 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:58840 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:54031 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:61161 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:58840 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:55301 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:61161 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:64988 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:55301 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:54031 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:59887 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:64988 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:58840 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:59887 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763557335920
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:61161 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:55301 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:64988 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:59887 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:51120 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:49467 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:59149 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:51120 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:49467 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:59149 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:53051 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:52151 Accepted
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:51120 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:49467 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:59149 Closing
+[Wed Nov 19 10:02:16 2025] 127.0.0.1:62030 Accepted
+[Wed Nov 19 10:02:17 2025] 127.0.0.1:53051 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:02:17 2025] 127.0.0.1:53051 Closing
+[Wed Nov 19 10:02:17 2025] 127.0.0.1:52151 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:02:17 2025] 127.0.0.1:52151 Closing
+[Wed Nov 19 10:02:17 2025] 127.0.0.1:62030 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:02:17 2025] 127.0.0.1:62030 Closing
+[Wed Nov 19 10:02:17 2025] 127.0.0.1:59667 Accepted
+[Wed Nov 19 10:02:18 2025] 127.0.0.1:59667 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 10:02:18 2025] 127.0.0.1:59667 Closing
+[Wed Nov 19 10:02:22 2025] 127.0.0.1:57872 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57872 [200]: GET /engine.php?class=LoginForm&method=onLogout&static=1
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57872 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:65304 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:65304 [200]: GET /index.php?class=LoginForm
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:65304 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63854 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63854 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63854 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60626 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60626 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60626 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63656 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63656 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:53479 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63316 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:58156 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63316 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:53479 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:58156 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63316 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:53479 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:58156 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:51032 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60488 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:62460 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:63656 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:50354 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:53035 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:51032 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60488 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:62460 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:50354 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:53035 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:51032 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60488 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:50354 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:53035 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:62460 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:49492 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60368 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:49492 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60368 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:52609 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:49492 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57891 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:60368 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:52609 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57891 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:52609 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57891 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:59405 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:59405 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:59405 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:64207 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:64207 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:64207 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:64332 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57753 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:55307 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:64332 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:61760 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57753 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:55307 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:61760 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57530 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:64332 Closing
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:59800 Accepted
+[Wed Nov 19 10:02:23 2025] 127.0.0.1:57530 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59800 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57753 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:55307 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:61760 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57530 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59800 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60872 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:64571 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:55410 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54287 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60872 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:64571 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:55410 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54287 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60872 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54287 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:64571 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:55410 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:55963 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59513 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:50672 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54488 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:55963 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59513 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:50672 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54488 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60123 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60123 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59513 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:50672 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54488 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52510 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60123 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52510 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52510 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52790 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52568 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52790 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52568 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57418 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52790 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57418 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:52568 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57418 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54323 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:63490 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54323 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:63490 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:55963 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:54323 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:63490 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60395 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:51660 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:53281 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60395 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:51660 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:53281 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60395 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:51660 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:53281 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57088 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:63937 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57088 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:63937 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:57088 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59688 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:63937 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60786 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59688 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60786 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:59688 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:60786 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:50926 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:50926 [200]: GET /engine.php?class=LoginForm
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:50926 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:51535 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:51535 [200]: GET /app/images/builderLogoLogin.jpeg
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:51535 Closing
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:58581 Accepted
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:58581 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:02:24 2025] 127.0.0.1:58581 Closing
+[Wed Nov 19 10:02:27 2025] 127.0.0.1:65406 Accepted
+[Wed Nov 19 10:02:28 2025] 127.0.0.1:65406 [200]: POST /engine.php?class=LoginForm&method=onLogin&static=1&static=1
+[Wed Nov 19 10:02:28 2025] 127.0.0.1:65406 Closing
+[Wed Nov 19 10:02:28 2025] 127.0.0.1:60198 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60198 [200]: GET /index.php?class=WelcomeView
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60198 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65190 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65190 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65190 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57212 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56802 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60775 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:64360 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57212 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56802 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60775 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:64360 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54665 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54665 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57212 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60775 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:64360 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54665 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53409 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57952 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56342 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:59391 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53409 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57952 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56342 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:59391 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53409 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57952 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:59391 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56342 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:63772 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56802 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:63772 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:63772 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56493 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:55862 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56493 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:55862 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56493 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:55862 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:59803 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60645 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:59803 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60645 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:59803 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60645 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56943 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56943 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56943 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54737 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50236 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57537 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54737 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50236 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57537 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53664 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:55865 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54737 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53664 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:55865 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50236 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57537 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53664 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:55865 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65272 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65272 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65272 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52702 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:61287 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:63037 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52702 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:61287 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:63037 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52702 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57151 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:61287 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:61168 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:63037 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57151 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:61168 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:61168 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:57151 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:62302 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52835 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60981 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:62302 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52835 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60981 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52835 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:60981 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53882 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50349 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53570 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53882 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50349 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53570 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53882 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50349 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53570 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54614 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53314 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54614 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53314 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54614 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53314 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52743 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54795 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:62632 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65042 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53077 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:62302 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52743 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54795 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:62632 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65042 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53077 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:52743 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:54795 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:62632 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:65042 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:53077 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:58211 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50177 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:58211 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50177 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:58989 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:58989 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:58211 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:49676 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:50177 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:49676 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:58989 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56456 Accepted
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:49676 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56456 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:56456 Closing
+[Wed Nov 19 10:02:29 2025] 127.0.0.1:61779 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:61779 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:61779 Closing
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:52935 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:50405 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:52935 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:57990 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:50405 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:63615 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:57990 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:54900 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:63615 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:52935 Closing
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:56315 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:54900 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:50405 Closing
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:64389 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:56315 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763557349937
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:57990 Closing
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:64032 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:64389 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:63615 Closing
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:64032 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:54900 Closing
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:61042 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:56315 Closing
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:63384 Accepted
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:61042 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:02:30 2025] 127.0.0.1:64389 Closing
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:63384 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:63384 Closing
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:64032 Closing
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:59759 Accepted
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:53411 Accepted
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:59759 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:59759 Closing
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:61042 Closing
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:53411 [200]: GET /engine.php?class=WelcomeView
+[Wed Nov 19 10:02:31 2025] 127.0.0.1:53411 Closing
+[Wed Nov 19 10:02:36 2025] 127.0.0.1:55523 Accepted
+[Wed Nov 19 10:02:37 2025] 127.0.0.1:55523 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:02:37 2025] 127.0.0.1:55523 Closing
+[Wed Nov 19 10:02:37 2025] 127.0.0.1:59007 Accepted
+[Wed Nov 19 10:02:37 2025] 127.0.0.1:59007 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 10:02:37 2025] 127.0.0.1:59007 Closing
+[Wed Nov 19 10:02:38 2025] 127.0.0.1:54222 Accepted
+[Wed Nov 19 10:02:38 2025] 127.0.0.1:54222 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:02:38 2025] 127.0.0.1:54222 Closing
+[Wed Nov 19 10:02:41 2025] 127.0.0.1:63240 Accepted
+[Wed Nov 19 10:02:41 2025] 127.0.0.1:63240 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:02:41 2025] 127.0.0.1:63240 Closing
+[Wed Nov 19 10:02:43 2025] 127.0.0.1:58147 Accepted
+[Wed Nov 19 10:02:44 2025] 127.0.0.1:58147 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 10:02:44 2025] 127.0.0.1:58147 Closing
+[Wed Nov 19 10:02:46 2025] 127.0.0.1:61703 Accepted
+[Wed Nov 19 10:02:46 2025] 127.0.0.1:61703 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:02:46 2025] 127.0.0.1:61703 Closing
+[Wed Nov 19 10:02:48 2025] 127.0.0.1:64766 Accepted
+[Wed Nov 19 10:02:48 2025] 127.0.0.1:64766 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:02:48 2025] 127.0.0.1:64766 Closing
+[Wed Nov 19 10:02:50 2025] 127.0.0.1:64664 Accepted
+[Wed Nov 19 10:02:50 2025] 127.0.0.1:64664 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Account
+[Wed Nov 19 10:02:50 2025] 127.0.0.1:64664 Closing
+[Wed Nov 19 10:02:51 2025] 127.0.0.1:56095 Accepted
+[Wed Nov 19 10:02:52 2025] 127.0.0.1:56095 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+[Wed Nov 19 10:02:52 2025] 127.0.0.1:56095 Closing
+[Wed Nov 19 10:02:53 2025] 127.0.0.1:54970 Accepted
+[Wed Nov 19 10:02:54 2025] 127.0.0.1:54970 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:02:54 2025] 127.0.0.1:54970 Closing
+[Wed Nov 19 10:02:55 2025] 127.0.0.1:57654 Accepted
+[Wed Nov 19 10:02:55 2025] 127.0.0.1:57654 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 10:02:55 2025] 127.0.0.1:57654 Closing
+[Wed Nov 19 10:02:57 2025] 127.0.0.1:52035 Accepted
+[Wed Nov 19 10:02:57 2025] 127.0.0.1:52035 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:02:57 2025] 127.0.0.1:52035 Closing
+[Wed Nov 19 10:02:58 2025] 127.0.0.1:57157 Accepted
+[Wed Nov 19 10:02:59 2025] 127.0.0.1:57157 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:02:59 2025] 127.0.0.1:57157 Closing
+[Wed Nov 19 10:03:02 2025] 127.0.0.1:49282 Accepted
+[Wed Nov 19 10:03:02 2025] 127.0.0.1:49282 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Account
+[Wed Nov 19 10:03:02 2025] 127.0.0.1:49282 Closing
+[Wed Nov 19 10:03:03 2025] 127.0.0.1:60843 Accepted
+[Wed Nov 19 10:03:04 2025] 127.0.0.1:60843 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+[Wed Nov 19 10:03:04 2025] 127.0.0.1:60843 Closing
+[Wed Nov 19 10:03:15 2025] 127.0.0.1:63586 Accepted
+[Wed Nov 19 10:03:15 2025] 127.0.0.1:63586 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:03:15 2025] 127.0.0.1:63586 Closing
+[Wed Nov 19 10:05:39 2025] 127.0.0.1:50822 Accepted
+[Wed Nov 19 10:05:39 2025] 127.0.0.1:50822 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:05:39 2025] 127.0.0.1:50822 Closing
+[Wed Nov 19 10:05:41 2025] 127.0.0.1:61776 Accepted
+[Wed Nov 19 10:05:41 2025] 127.0.0.1:61776 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:05:41 2025] 127.0.0.1:61776 Closing
+[Wed Nov 19 10:08:27 2025] 127.0.0.1:55092 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55092 [200]: GET /index.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55092 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54737 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54737 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54737 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:59002 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:59002 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51942 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51942 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52769 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:59002 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52848 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52769 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62002 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52848 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62002 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52769 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52848 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62002 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51942 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:64707 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62216 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:64707 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62216 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:64707 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62216 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57833 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55052 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61115 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52521 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57833 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55052 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61115 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52521 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55023 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57833 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55052 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52521 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55983 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55023 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55983 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55023 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55983 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61115 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62513 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62513 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60248 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62513 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60248 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60248 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55499 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60144 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50852 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62038 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55499 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60144 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50852 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62038 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55499 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60144 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50852 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62038 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62017 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62558 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62017 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62558 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62017 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:62558 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:49398 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57243 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51300 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50425 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:49398 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57243 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51300 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50425 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:49398 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57243 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51300 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50425 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:65022 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:53645 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:65022 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:53645 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61394 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:65022 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:64952 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61394 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:64952 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61394 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:64952 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63566 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63566 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61813 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63566 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61363 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61813 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61363 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61813 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:61363 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54282 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63169 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54282 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63169 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54282 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63169 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50711 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51919 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:58360 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:53645 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50711 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51919 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:58360 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57576 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:58360 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57576 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50711 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51919 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:57576 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:56675 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60056 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:56675 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60056 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:56675 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:60056 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63039 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:59824 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63039 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:59824 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:53798 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:53798 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63039 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:59824 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:53798 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54994 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54994 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54994 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:58792 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:58792 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:58792 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:49739 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55730 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:49739 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63624 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55730 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55044 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63624 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52356 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55044 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:49739 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55781 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52356 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55730 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51705 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55781 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763557708339
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:63624 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55947 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:51705 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55044 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54736 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55947 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:52356 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55720 Accepted
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:54736 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:55781 Closing
+[Wed Nov 19 10:08:28 2025] 127.0.0.1:50484 Accepted
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:55720 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:55720 Closing
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:51705 Closing
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:51981 Accepted
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:50484 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:50484 Closing
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:55947 Closing
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:51981 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:51981 Closing
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:54736 Closing
+[Wed Nov 19 10:08:29 2025] 127.0.0.1:60358 Accepted
+[Wed Nov 19 10:08:30 2025] 127.0.0.1:60358 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:08:30 2025] 127.0.0.1:60358 Closing
+[Wed Nov 19 10:08:32 2025] 127.0.0.1:61941 Accepted
+[Wed Nov 19 10:08:32 2025] 127.0.0.1:61941 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:08:32 2025] 127.0.0.1:61941 Closing
+[Wed Nov 19 10:08:34 2025] 127.0.0.1:62479 Accepted
+[Wed Nov 19 10:08:35 2025] 127.0.0.1:62479 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:08:35 2025] 127.0.0.1:62479 Closing
+[Wed Nov 19 10:08:35 2025] 127.0.0.1:58731 Accepted
+[Wed Nov 19 10:08:35 2025] 127.0.0.1:58731 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Account
+[Wed Nov 19 10:08:35 2025] 127.0.0.1:58731 Closing
+[Wed Nov 19 10:08:37 2025] 127.0.0.1:57570 Accepted
+[Wed Nov 19 10:08:37 2025] 127.0.0.1:57570 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+[Wed Nov 19 10:08:37 2025] 127.0.0.1:57570 Closing
+[Wed Nov 19 10:15:39 2025] 127.0.0.1:61930 Accepted
+[Wed Nov 19 10:15:39 2025] 127.0.0.1:63105 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61930 [200]: GET /index.php?class=CrmView&method=onShow&entity=Account
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61930 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63105 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63105 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55442 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55442 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49888 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49888 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:64191 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55442 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:64191 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:64191 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50220 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52059 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50220 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52059 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50220 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52059 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:57607 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49888 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53862 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:57607 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53862 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:57607 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53862 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55768 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52847 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55768 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52847 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55768 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52847 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60194 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59280 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60194 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59280 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60194 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59280 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63643 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:62869 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63643 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:62869 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63643 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:62869 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52663 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53933 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:64348 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52663 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59364 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53933 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:64348 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52663 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59364 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53933 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:64348 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59364 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52055 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49700 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52055 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49700 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52055 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49700 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60093 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53040 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52365 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49668 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60093 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53040 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52365 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49668 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:56456 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:51103 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60093 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:56456 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:53040 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52365 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49668 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:51103 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:56456 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61884 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:51103 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49376 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61884 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49376 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61884 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52034 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49803 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52034 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49803 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:52034 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49803 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59300 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59300 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55637 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:59300 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55637 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55637 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63368 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63368 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63368 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61176 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49838 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61176 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49838 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:61176 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49838 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55114 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55114 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55114 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50102 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:49376 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:51566 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50102 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:51566 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50102 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:51566 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:56534 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50339 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:56534 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50339 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:56534 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:50339 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:54952 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:58812 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60983 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:54952 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:58812 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60983 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:54952 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:58812 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:60983 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55191 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55191 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63401 Accepted
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:55191 Closing
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63401 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:15:40 2025] 127.0.0.1:63401 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:56909 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:56909 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:56909 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64635 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:53646 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64635 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:61268 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:53646 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:56833 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:61268 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:54904 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:56833 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64635 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64263 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:54904 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:53646 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:63402 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64263 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763558141037
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:61268 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64356 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:63402 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:56833 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:60080 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:54904 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64356 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:60080 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:64263 Closing
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:59155 Accepted
+[Wed Nov 19 10:15:41 2025] 127.0.0.1:63402 Closing
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:59155 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:59155 Closing
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:50429 Accepted
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:64356 Closing
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:60080 Closing
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:65298 Accepted
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:50429 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:50429 Closing
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:65298 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Account
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:65298 Closing
+[Wed Nov 19 10:15:42 2025] 127.0.0.1:65359 Accepted
+[Wed Nov 19 10:15:43 2025] 127.0.0.1:65359 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Account&maxSize=20&offset=0
+[Wed Nov 19 10:15:43 2025] 127.0.0.1:65359 Closing
+[Wed Nov 19 10:15:44 2025] 127.0.0.1:50582 Accepted
+[Wed Nov 19 10:15:44 2025] 127.0.0.1:50582 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Lead
+[Wed Nov 19 10:15:44 2025] 127.0.0.1:50582 Closing
+[Wed Nov 19 10:15:47 2025] 127.0.0.1:53928 Accepted
+[Wed Nov 19 10:15:47 2025] 127.0.0.1:53928 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+[Wed Nov 19 10:15:47 2025] 127.0.0.1:53928 Closing
+[Wed Nov 19 10:15:49 2025] 127.0.0.1:53214 Accepted
+[Wed Nov 19 10:15:49 2025] 127.0.0.1:53214 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:15:49 2025] 127.0.0.1:53214 Closing
+[Wed Nov 19 10:15:50 2025] 127.0.0.1:64553 Accepted
+[Wed Nov 19 10:15:51 2025] 127.0.0.1:64553 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:15:51 2025] 127.0.0.1:64553 Closing
+[Wed Nov 19 10:15:52 2025] 127.0.0.1:57163 Accepted
+[Wed Nov 19 10:15:53 2025] 127.0.0.1:57163 [200]: GET /engine.php?class=EspoCrmProxy&method=get&entity=Contact&id=m1
+[Wed Nov 19 10:15:53 2025] 127.0.0.1:57163 Closing
+[Wed Nov 19 10:15:58 2025] 127.0.0.1:60715 Accepted
+[Wed Nov 19 10:15:58 2025] 127.0.0.1:60715 [200]: PUT /engine.php?class=EspoCrmProxy&method=update&entity=Contact&id=m1
+[Wed Nov 19 10:15:58 2025] 127.0.0.1:60715 Closing
+[Wed Nov 19 10:16:02 2025] 127.0.0.1:54526 Accepted
+[Wed Nov 19 10:16:02 2025] 127.0.0.1:54526 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:16:02 2025] 127.0.0.1:54526 Closing
+[Wed Nov 19 10:25:53 2025] 127.0.0.1:59732 Accepted
+[Wed Nov 19 10:25:53 2025] 127.0.0.1:58535 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59732 [200]: GET /index.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59732 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58535 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58535 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52731 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50599 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52731 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50599 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51003 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50229 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51003 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54239 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50229 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52731 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54239 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51003 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50229 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54239 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52698 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52698 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52698 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53578 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53578 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53578 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50599 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:56922 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61335 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61116 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:56922 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61335 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61116 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64459 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55599 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:56922 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61335 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64459 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55599 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61116 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64459 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55599 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52317 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52317 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52317 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54443 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54443 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54443 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62600 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55289 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58374 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55224 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62600 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:60982 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62600 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55289 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58374 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55224 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:60982 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55289 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58374 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55224 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:60982 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58387 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58387 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:58387 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51948 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57159 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51233 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64751 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54347 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51948 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57159 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51233 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64751 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61715 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54347 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61715 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51948 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57159 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51233 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64751 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59586 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54347 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61715 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49287 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:56193 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59586 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49287 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:56193 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57855 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49287 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:56193 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57855 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57855 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54028 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54028 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54028 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54055 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55169 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54055 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55169 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:54055 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:55169 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59430 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64346 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59430 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64346 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59430 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:64346 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59586 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49650 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53925 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50079 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49650 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53925 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50079 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49509 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49650 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53925 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50079 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49509 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49509 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57072 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57072 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57072 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51983 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57497 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49754 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51983 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57497 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49754 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57476 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:51983 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57497 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:49754 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57476 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57476 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62701 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62701 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62701 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62185 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53625 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62185 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50575 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53625 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61988 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50575 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57913 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61988 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62185 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57256 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57913 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:53625 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52975 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57256 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763558754423
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:50575 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59902 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52975 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:61988 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:60055 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57913 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:59902 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:60055 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:57256 Closing
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:62800 Accepted
+[Wed Nov 19 10:25:54 2025] 127.0.0.1:52975 Closing
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:62800 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:62800 Closing
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:61472 Accepted
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:59902 Closing
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:60055 Closing
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:59113 Accepted
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:61472 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:25:55 2025] 127.0.0.1:61472 Closing
+[Wed Nov 19 10:25:56 2025] 127.0.0.1:59113 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:25:56 2025] 127.0.0.1:59113 Closing
+[Wed Nov 19 10:25:56 2025] 127.0.0.1:56543 Accepted
+[Wed Nov 19 10:25:56 2025] 127.0.0.1:56543 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:25:56 2025] 127.0.0.1:56543 Closing
+[Wed Nov 19 10:25:57 2025] 127.0.0.1:54422 Accepted
+[Wed Nov 19 10:25:57 2025] 127.0.0.1:54422 [200]: GET /engine.php?class=EspoCrmProxy&method=get&entity=Contact&id=m1
+[Wed Nov 19 10:25:57 2025] 127.0.0.1:54422 Closing
+[Wed Nov 19 10:26:03 2025] 127.0.0.1:54398 Accepted
+[Wed Nov 19 10:26:03 2025] 127.0.0.1:54398 [200]: PUT /engine.php?class=EspoCrmProxy&method=update&entity=Contact&id=m1
+[Wed Nov 19 10:26:03 2025] 127.0.0.1:54398 Closing
+[Wed Nov 19 10:26:08 2025] 127.0.0.1:54905 Accepted
+[Wed Nov 19 10:26:08 2025] 127.0.0.1:54905 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:26:08 2025] 127.0.0.1:54905 Closing
+[Wed Nov 19 10:26:09 2025] 127.0.0.1:53716 Accepted
+[Wed Nov 19 10:26:10 2025] 127.0.0.1:53716 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:26:10 2025] 127.0.0.1:53716 Closing
+[Wed Nov 19 10:26:13 2025] 127.0.0.1:61154 Accepted
+[Wed Nov 19 10:27:14 2025] 127.0.0.1:61154 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Nov 19 10:27:14 2025] 127.0.0.1:61154 Closing
+[Wed Nov 19 10:28:21 2025] 127.0.0.1:58512 Accepted
+[Wed Nov 19 10:28:21 2025] 127.0.0.1:50707 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58512 [200]: GET /index.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58512 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50707 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50707 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50401 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50401 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50401 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51622 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51622 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57690 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62741 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57566 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57690 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62741 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57566 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57690 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62741 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57566 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:53769 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:53769 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:53769 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50078 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:65168 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52662 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50078 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:65168 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52662 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54158 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51622 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50078 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52662 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54158 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:65168 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54158 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62313 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50770 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:53013 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49608 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62313 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50770 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:53013 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49608 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62313 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49821 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50770 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:53013 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49608 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49821 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49821 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50295 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57751 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50295 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:64639 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50295 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57751 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:64639 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57751 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:64639 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57271 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57271 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52168 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57271 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52168 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52168 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57466 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:64699 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:55701 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54276 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57466 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:64699 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:55701 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54276 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50741 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50741 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:57466 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59118 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:64699 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:55701 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59118 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54276 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54145 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54145 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50741 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52270 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59118 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:56105 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52270 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:56105 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:52270 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:56105 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:65114 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:65114 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:65114 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59727 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58758 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59076 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59727 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58758 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59076 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59727 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51568 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58758 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:59076 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51568 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51568 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62697 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49274 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62697 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49274 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54145 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58877 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58877 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62697 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:49274 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:58877 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51419 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62070 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51419 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62070 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:61714 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:61714 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51419 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62070 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:61714 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51386 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51386 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50511 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:51386 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54444 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50511 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54444 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:50511 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:54444 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62812 Accepted
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62812 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:62812 Closing
+[Wed Nov 19 10:28:22 2025] 127.0.0.1:55394 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:55394 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:55394 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:49773 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:56440 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:49773 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:63956 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:56440 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:53996 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:63956 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:56544 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:53996 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:49773 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:51944 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:56544 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:56440 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:62650 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:51944 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763558902654
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:63956 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:59668 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:62650 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:53996 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:58487 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:59668 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:56544 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:51792 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:58487 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:51944 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:61760 Accepted
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:51792 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:51792 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:62650 Closing
+[Wed Nov 19 10:28:23 2025] 127.0.0.1:61784 Accepted
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:61760 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:61760 Closing
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:59668 Closing
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:61784 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:61784 Closing
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:58487 Closing
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:57123 Accepted
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:57123 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:28:24 2025] 127.0.0.1:57123 Closing
+[Wed Nov 19 10:32:07 2025] 127.0.0.1:49896 Accepted
+[Wed Nov 19 10:32:07 2025] 127.0.0.1:63785 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:49896 [200]: GET /index.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:49896 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63785 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63785 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58289 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:53883 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58289 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:53883 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51830 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58714 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51830 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:62429 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58714 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58289 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:62429 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51830 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58714 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:62429 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:53883 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54061 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50076 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54061 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50076 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54061 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50076 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:61812 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52441 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52173 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:61812 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52441 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55507 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52173 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55507 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:61812 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52441 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55507 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52173 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51061 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55015 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51061 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55015 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51061 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55015 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50222 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52394 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50222 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:59911 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52394 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58038 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50222 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:59911 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58038 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52394 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:59911 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:58038 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:57533 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63903 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:57533 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63903 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:57533 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63903 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:49402 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63813 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:49402 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63813 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:49402 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63813 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50317 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54541 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50317 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54541 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50317 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54710 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54541 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50915 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54710 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50915 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54710 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50915 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:53589 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:53589 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55859 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55859 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:61678 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:53589 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:61678 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52410 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52410 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:61678 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52410 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:60047 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51863 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:60047 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54643 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:60047 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51863 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54643 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51863 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54643 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52399 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52399 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52399 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63423 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:55859 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63423 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63423 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50490 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52247 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63787 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:65261 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50490 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54068 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52247 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:50490 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63787 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:65261 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54068 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:52247 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:63787 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:65261 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:54068 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:62737 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:62737 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:62737 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:64085 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51449 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:64085 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51918 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:64085 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51449 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:64004 Accepted
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51918 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:64004 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51449 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:51918 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:64004 Closing
+[Wed Nov 19 10:32:08 2025] 127.0.0.1:57616 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:57616 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:57616 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:65432 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53441 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:65432 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:57495 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53441 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:55486 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:57495 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:59291 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:55486 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:65432 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53409 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:59291 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53441 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:61014 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53409 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763559128758
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:57495 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:63061 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:61014 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:55486 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53453 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:63061 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:59291 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:49990 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53453 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:53409 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:60834 Accepted
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:49990 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:49990 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:61014 Closing
+[Wed Nov 19 10:32:09 2025] 127.0.0.1:61669 Accepted
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:60834 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:60834 Closing
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:63061 Closing
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:61669 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:61669 Closing
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:53453 Closing
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:64604 Accepted
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:64604 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:32:10 2025] 127.0.0.1:64604 Closing
+[Wed Nov 19 10:32:12 2025] 127.0.0.1:52985 Accepted
+[Wed Nov 19 10:32:12 2025] 127.0.0.1:52985 [200]: GET /engine.php?class=EspoCrmProxy&method=get&entity=Contact&id=m1
+[Wed Nov 19 10:32:12 2025] 127.0.0.1:52985 Closing
+[Wed Nov 19 10:32:17 2025] 127.0.0.1:65452 Accepted
+[Wed Nov 19 10:32:17 2025] 127.0.0.1:65452 [200]: PUT /engine.php?class=EspoCrmProxy&method=update&entity=Contact&id=m1
+[Wed Nov 19 10:32:17 2025] 127.0.0.1:65452 Closing
+[Wed Nov 19 10:32:20 2025] 127.0.0.1:52505 Accepted
+[Wed Nov 19 10:32:20 2025] 127.0.0.1:52505 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:32:20 2025] 127.0.0.1:52505 Closing
+[Wed Nov 19 10:32:22 2025] 127.0.0.1:60038 Accepted
+[Wed Nov 19 10:32:22 2025] 127.0.0.1:60038 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:32:22 2025] 127.0.0.1:60038 Closing
+[Wed Nov 19 10:32:23 2025] 127.0.0.1:58877 Accepted
+[Wed Nov 19 10:32:23 2025] 127.0.0.1:58877 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:32:23 2025] 127.0.0.1:58877 Closing
+[Wed Nov 19 10:32:28 2025] 127.0.0.1:64020 Accepted
+[Wed Nov 19 10:32:28 2025] 127.0.0.1:64020 [200]: POST /engine.php?class=EspoCrmProxy&method=create&entity=Contact
+[Wed Nov 19 10:32:28 2025] 127.0.0.1:64020 Closing
+[Wed Nov 19 10:32:28 2025] 127.0.0.1:60736 Accepted
+[Wed Nov 19 10:32:28 2025] 127.0.0.1:60736 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:32:28 2025] 127.0.0.1:60736 Closing
+[Wed Nov 19 10:34:37 2025] 127.0.0.1:60566 Accepted
+[Wed Nov 19 10:34:37 2025] 127.0.0.1:60566 [200]: PUT /engine.php?class=EspoCrmProxy&method=update&entity=Contact&id=m1
+[Wed Nov 19 10:34:37 2025] 127.0.0.1:60566 Closing
+[Wed Nov 19 10:37:05 2025] 127.0.0.1:53678 Accepted
+[Wed Nov 19 10:37:05 2025] 127.0.0.1:55011 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53678 [200]: GET /index.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53678 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:55011 [200]: GET /lib/jquery/js/jquery.min.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:55011 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61120 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:62106 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61120 [200]: GET /lib/bootstrap/js/bootstrap.bundle.min.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:62106 [200]: GET /lib/bootstrap/js/bootstrap-plugins.min.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:62537 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:49944 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:62537 [200]: GET /lib/bootstrap/js/locales/bootstrap-datepicker.pt.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:49393 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:49944 [200]: GET /lib/bootstrap/js/locales/bootstrap-datetimepicker.pt.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61120 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:49393 [200]: GET /lib/bootstrap/js/lang/summernote-pt-BR.min.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:62537 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:49944 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:49393 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:64276 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:64276 [200]: GET /lib/jquery/css/jquery-ui.min.css?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:64276 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:62106 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56076 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56076 [200]: GET /lib/jquery/css/jquery-plugins.min.css?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56076 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54730 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63834 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54989 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54730 [200]: GET /lib/bootstrap/css/bootstrap.min.css?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63834 [200]: GET /lib/bootstrap/css/boostrap-plugins.min.css?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54989 [200]: GET /lib/independent/css/independent-plugins.min.css?afver=934
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:59662 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:59662 [200]: GET /lib/adianti/include/adianti.min.css?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54730 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63834 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54989 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50221 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:59662 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50221 [200]: GET /lib/adianti/include/components.min.css?afver=311
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50221 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:58882 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:58882 [200]: GET /lib/mad/include/components.min.css?afver=3121
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:58882 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60863 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54630 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60863 [200]: GET /app/templates/theme-builder/application.css?appver=312
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53154 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54630 [200]: GET /app/lib/include/admin.min.css
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60863 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61169 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54630 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53154 [200]: GET /app/lib/include/c3/c3.min.css
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61169 [200]: GET /app/templates/theme-builder/css/style.css
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53154 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61169 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57527 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60644 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57527 [200]: GET /app/templates/theme-builder/themes/default.css?time=1744484948
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60644 [200]: GET /app/templates/theme4/css/sweetalert.css
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60371 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57527 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60644 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50060 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60371 [200]: GET /app/lib/include/builder/theme-builder/builder.css?appver=705
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50060 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.css?appver=705
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60371 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50060 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:59696 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56570 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:59696 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.css?appver=705
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56570 [200]: GET /app/lib/include/css/builder_user_custom_css.css?appver=1744484947
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54053 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54053 [200]: GET /lib/jquery/js/jquery-ui.min.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:59696 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56570 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57874 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54053 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52520 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:51470 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57874 [200]: GET /lib/jquery/js/jquery-plugins.min.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52520 [200]: GET /lib/jquery/js/select2_locale_pt.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:51470 [200]: GET /lib/independent/js/independent-plugins.min.js?afver=310
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57874 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52520 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63880 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63554 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63880 [200]: GET /lib/independent/js/fullcalendar-pt.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63554 [200]: GET /lib/adianti/include/adianti.min.js?afver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63880 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:63554 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52626 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:65415 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52626 [200]: GET /lib/adianti/include/components.min.js?afver=310
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:65415 [200]: GET /lib/mad/include/components.min.js?afver=3121
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52626 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:65415 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:51933 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52542 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:65083 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:51933 [200]: GET /app/lib/include/application.js?appver=740
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52542 [200]: GET /app/lib/include/system.js?appver=312
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:65083 [200]: GET /app/lib/include/admin-all.min.js
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:51933 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52542 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:65083 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52090 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56590 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50912 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54214 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52090 [200]: GET /app/lib/include/c3/d3.min.js
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56590 [200]: GET /app/lib/include/c3/c3.min.js
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50912 [200]: GET /app/templates/theme-builder/js/custom.js
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54214 [200]: GET /app/templates/theme-builder/js/plugins/jquery-slimscroll/jquery.slimscroll.js
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60389 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:51470 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60389 [200]: GET /app/templates/theme4/js/sweetalert.min.js
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:52090 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:50912 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54214 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:56590 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:60389 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53003 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:55855 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53003 [200]: GET /app/lib/include/builder/builder.js?appver=3452
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:55855 [200]: GET /app/lib/include/builder/builder-editor-css.js?appver=705
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53003 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:55855 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61523 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54061 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57981 Accepted
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61523 [200]: GET /app/lib/include/builder/theme-builder/BuilderTemplate.js?appver=523980
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54061 [200]: GET /app/lib/include/builder/bcontainer/bcontainer.js?appver=705
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57981 [200]: GET /app/lib/include/builder/bsignaturedrawcapture/bsignaturedrawcapture.js?appver=705
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:61523 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:54061 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:57981 Closing
+[Wed Nov 19 10:37:06 2025] 127.0.0.1:53632 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:53632 [200]: GET /engine.php?class=SearchBox
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:53632 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:54459 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:61646 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:54459 [200]: GET /app/images/photos/admin.jpg
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:56952 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:61646 [200]: GET /app/images/photos/admin.png
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:60693 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:56952 [200]: GET /app/images/photos/admin.jpeg
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55653 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:60693 [200]: GET /app/images/photos/user.png
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:54459 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:57552 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55653 [200]: GET /app/images/photos/user.jpg
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:61646 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55369 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:57552 [200]: GET /app/templates/theme-builder/themes/default.css?time=1763559426702
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:56952 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55922 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55369 [200]: GET /lib/independent/webfonts/fa-solid-900.woff2
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:60693 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:61088 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55922 [200]: GET /lib/independent/webfonts/fa-regular-400.woff2
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55653 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:53048 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:61088 [200]: GET /app/images/photos/user.jpeg
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:57552 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:53048 [200]: GET /engine.php?class=MessageList&theme=theme-builder
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:53048 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55369 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:53909 Accepted
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:55922 Closing
+[Wed Nov 19 10:37:07 2025] 127.0.0.1:60467 Accepted
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:53909 [200]: GET /engine.php?class=NotificationList&theme=theme-builder
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:53909 Closing
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:61088 Closing
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:60467 [200]: GET /engine.php?class=CrmView&method=onShow&entity=Contact
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:60467 Closing
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:57512 Accepted
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:57512 [200]: GET /engine.php?class=EspoCrmProxy&method=list&entity=Contact&maxSize=20&offset=0
+[Wed Nov 19 10:37:08 2025] 127.0.0.1:57512 Closing
+[Wed Nov 19 10:37:09 2025] 127.0.0.1:60691 Accepted
+[Wed Nov 19 10:37:10 2025] 127.0.0.1:60691 [200]: GET /engine.php?class=EspoCrmProxy&method=get&entity=Contact&id=m1
+[Wed Nov 19 10:37:10 2025] 127.0.0.1:60691 Closing
+[Wed Nov 19 10:37:14 2025] 127.0.0.1:56450 Accepted
+[Wed Nov 19 10:37:15 2025] 127.0.0.1:56450 [200]: PUT /engine.php?class=EspoCrmProxy&method=update&entity=Contact&id=m1
+[Wed Nov 19 10:37:15 2025] 127.0.0.1:56450 Closing

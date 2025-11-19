@@ -96,7 +96,7 @@ class BuilderService
                 throw new Exception($jsonData['message']??'Error');
             }
 
-            $content = trim($content);
+            $content = trim($content ?? '');
             $folder_name = str_replace('code/', '', str_replace('.tar.gz', '', $content) );
             $zipContent = file_get_contents("{$app_url}/{$content}", false, stream_context_create(['ssl' => ['verify_peer' => false, 'verify_peer_name' => false]]));
             file_put_contents('tmp/update_lib.tar.gz', $zipContent);

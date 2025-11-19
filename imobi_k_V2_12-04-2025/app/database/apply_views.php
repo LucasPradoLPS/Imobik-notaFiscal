@@ -84,7 +84,7 @@ try {
     // Now split remaining SQL by semicolon and execute each statement
     $parts = preg_split('/;\s*(?:\r?\n|$)/', $sql);
     foreach ($parts as $part) {
-        $stmt = trim($part);
+        $stmt = trim($part ?? '');
         if ($stmt === '') continue;
 
         try {

@@ -60,7 +60,7 @@ if (preg_match('#^/nfe/([^/]+)/cancel$#', $uri, $m) && $method === 'POST') {
     // read body (json expected or form)
     $body = file_get_contents('php://input');
     $data = [];
-    $trim = trim($body);
+    $trim = trim($body ?? '');
     if (strlen($trim) > 0) {
         // try json
         $decoded = json_decode($body, true);

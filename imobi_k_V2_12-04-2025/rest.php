@@ -8,13 +8,13 @@ if (!file_exists(dirname($earlyLogFile))) {
 }
 
 set_exception_handler(function($e) use ($earlyLogFile) {
-    $msg = date('c') . " EARLY EXCEPTION: " . $e->getMessage() . "\n";
+    $msg = date('c') . " EARLY EXCEPTION: " . strval($e->getMessage()) . "\n";
     if (method_exists($e, 'getTraceAsString')) {
         $msg .= $e->getTraceAsString() . "\n";
     }
     @file_put_contents($earlyLogFile, $msg . "\n", FILE_APPEND);
     http_response_code(500);
-    echo json_encode(['status' => 'error', 'data' => $e->getMessage()]);
+    echo json_encode(['status' => 'error', 'data' => strval($e->getMessage())]);
     exit;
 });
 
@@ -38,7 +38,7 @@ if (!file_exists(dirname($logFile))) {
 function imobi_log_exception($e)
 {
     global $logFile;
-    $msg = date('c') . " EXCEPTION: " . $e->getMessage() . "\n";
+    $msg = date('c') . " EXCEPTION: " . strval($e->getMessage()) . "\n";
     if (method_exists($e, 'getTraceAsString')) {
         $msg .= $e->getTraceAsString() . "\n";
     }
@@ -48,7 +48,7 @@ function imobi_log_exception($e)
 set_exception_handler(function($e) {
     imobi_log_exception($e);
     http_response_code(500);
-    echo json_encode(['status' => 'error', 'data' => $e->getMessage()]);
+    echo json_encode(['status' => 'error', 'data' => strval($e->getMessage())]);
     exit;
 });
 

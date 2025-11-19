@@ -196,8 +196,8 @@ class TMail
         $pos = strpos($fullmail, '<');
         if ( $pos !== FALSE )
         {
-            $name  = trim(substr($fullmail, 0, $pos-1));
-            $email = trim(substr($fullmail, $pos+1, -1));
+            $name  = trim(substr($fullmail ?? '', 0, $pos-1));
+            $email = trim(substr($fullmail ?? '', $pos+1, -1));
             $name  = str_replace("'", "''", $name);
             
             return array($email, $name);

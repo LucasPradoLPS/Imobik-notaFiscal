@@ -329,7 +329,7 @@ class Documento extends TRecord
                 $message = 'From: ' . TSession::getValue('userunitname') . ' / ' . TSession::getValue('username') . "\n\n";
                 $message .= "Este cliente atingiu a franquia mensal de assinaturas digitais, a saber: \n\n";
                 $message .= " Franquia Mensal: {$franquia['franquia']} \n Consumo : {$franquia['consumo']} \n Excedido: {$franquia['excedido']}"; 
-                MailService::send( trim($preferences['mail_support']), 'Alerta', $message );
+                MailService::send( trim($preferences['mail_support'] ?? ''), 'Alerta', $message );
             }
 
     } 

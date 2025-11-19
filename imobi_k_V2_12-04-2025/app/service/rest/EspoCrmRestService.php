@@ -36,7 +36,7 @@ class EspoCrmRestService
             $res = $client->get('/api/v1/Contact', $params ?: []);
             return $res['body'] ?? [];
         } catch (Exception $e) {
-            throw new Exception($e->getMessage());
+            throw new Exception(strval($e->getMessage()));
         }
     }
 
@@ -47,7 +47,7 @@ class EspoCrmRestService
             $res = $client->post('/api/v1/Contact', $data ?: []);
             return $res['body'] ?? [];
         } catch (Exception $e) {
-            throw new Exception($e->getMessage());
+            throw new Exception(strval($e->getMessage()));
         }
     }
 
@@ -58,7 +58,7 @@ class EspoCrmRestService
             $res = $client->put('/api/v1/Contact/' . rawurlencode($id), $data ?: []);
             return $res['body'] ?? [];
         } catch (Exception $e) {
-            throw new Exception($e->getMessage());
+            throw new Exception(strval($e->getMessage()));
         }
     }
 
@@ -69,7 +69,7 @@ class EspoCrmRestService
             $res = $client->delete('/api/v1/Contact/' . rawurlencode($id));
             return $res['body'] ?? ['deleted' => $id];
         } catch (Exception $e) {
-            throw new Exception($e->getMessage());
+            throw new Exception(strval($e->getMessage()));
         }
     }
 
@@ -81,7 +81,7 @@ class EspoCrmRestService
             $res = $client->get('/api/v1/Lead', $params ?: []);
             return $res['body'] ?? [];
         } catch (Exception $e) {
-            throw new Exception($e->getMessage());
+            throw new Exception(strval($e->getMessage()));
         }
     }
 
@@ -92,7 +92,7 @@ class EspoCrmRestService
             $res = $client->post('/api/v1/Lead', $data ?: []);
             return $res['body'] ?? [];
         } catch (Exception $e) {
-            throw new Exception($e->getMessage());
+            throw new Exception(strval($e->getMessage()));
         }
     }
 

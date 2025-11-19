@@ -36,7 +36,7 @@ class Uteis
 
     public static function cnpjcpf($val, $label = false)
     {
-        $val = trim($val);
+        $val = trim($val ?? '');
         if(strlen($val) == 14)
         {
             return $label == true ? 'CNPJ: ' . Uteis::mask($val,'##.###.###/####-##') : Uteis::mask($val,'##.###.###/####-##') ;
@@ -60,7 +60,7 @@ class Uteis
     {
         // return preg_replace("/&([a-z])[a-z]+;/i", "$1", htmlentities(trim($str)));
         // Alterado em 03/12/2024
-        return preg_replace(["/&([a-z])[a-z]+;/i", "/[\/:\(\)\[\]]/"], "$1", htmlentities(trim($str)));
+        return preg_replace(["/&([a-z])[a-z]+;/i", "/[\/:\(\)\[\]]/"], "$1", htmlentities(trim($str ?? '')));
 
 
     } 
@@ -75,7 +75,7 @@ class Uteis
     
     public static function validarCep($cep) {
         // retira espacos em branco
-        $cep = trim($cep);
+        $cep = trim($cep ?? '');
         // expressao regular para avaliar o cep
         $avaliaCep = ereg("^[0-9]{5}-[0-9]{3}$", $cep);
         

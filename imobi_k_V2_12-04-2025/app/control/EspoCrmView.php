@@ -132,7 +132,17 @@ class EspoCrmView extends TPage
         $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
         $hostHeader = $_SERVER['HTTP_HOST'] ?? '';
         $candidates = [];
+        // Prefer ESPOCRM_BASE_URL if set in environment/config
+        $envBase = getenv('ESPOCRM_BASE_URL');
+        if ($envBase && is_string($envBase)) {
+            $parts = parse_url($envBase);
+            if (isset($parts['host'])) {
+                $hostPort = $parts['host'] . (isset($parts['port']) ? ':' . $parts['port'] : '');
+                $candidates[] = $hostPort;
+            }
+        }
         if ($hostHeader) { $candidates[] = $hostHeader; }
+        // legacy fallbacks
         $candidates[] = '127.0.0.1:8080';
         $candidates[] = 'localhost:8080';
 

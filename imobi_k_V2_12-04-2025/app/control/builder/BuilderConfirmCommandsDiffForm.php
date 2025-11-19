@@ -102,7 +102,7 @@ class BuilderConfirmCommandsDiffForm extends TPage
 
 			foreach($commands as $command)
 			{
-				$command = trim($command);
+				$command = trim($command ?? '');
 
 				if(! $command)
 				{
@@ -178,9 +178,9 @@ class BuilderConfirmCommandsDiffForm extends TPage
 
 			if(! empty($databaseMergeSession->confirmedSqls))
 			{
-				$queryes       = trim($databaseMergeSession->confirmedSqls, "\n");
+				$queryes       = trim($databaseMergeSession->confirmedSqls ?? '', "\n");
 				$arrayCommands = explode(';', $queryes);
-				$arrayCommands = array_map(function($query){ return trim($query); }, $arrayCommands);
+				$arrayCommands = array_map(function($query){ return trim($query ?? ''); }, $arrayCommands);
 				$uniqCommands  = array_unique($arrayCommands);
 				$commandsUniqs = implode(";", $uniqCommands);
 				$commandsUniqs = str_replace(";", ";\n\n", $commandsUniqs);

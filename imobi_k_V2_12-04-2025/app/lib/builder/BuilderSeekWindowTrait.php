@@ -26,7 +26,8 @@ trait BuilderSeekWindowTrait
 
     public static function getSeekFields($param)
     {
-        $seed = AdiantiApplicationConfig::get()['general']['seed'];
+        $cfg = AdiantiApplicationConfig::get();
+        $seed = $cfg['general']['seed'] ?? '';
         if(!empty($param['_seek_fields']) && !empty($param['_seek_hash']) && !empty($param['_seek_filters']))
         {
             if(md5($seed.$param['_seek_fields'].$param['_seek_filters']) != $param['_seek_hash'])
@@ -46,7 +47,8 @@ trait BuilderSeekWindowTrait
     {
         $criteria = new TCriteria();
 
-        $seed = AdiantiApplicationConfig::get()['general']['seed'];
+        $cfg = AdiantiApplicationConfig::get();
+        $seed = $cfg['general']['seed'] ?? '';
         if(!empty($param['_seek_fields']) && !empty($param['_seek_hash']) && !empty($param['_seek_filters']))
         {
             if(md5($seed.$param['_seek_fields'].$param['_seek_filters']) != $param['_seek_hash'])

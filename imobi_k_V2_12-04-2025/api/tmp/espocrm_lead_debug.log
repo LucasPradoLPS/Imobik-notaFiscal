@@ -1,0 +1,2 @@
+2025-11-19T13:15:47+00:00 | start | method=GET | query=class=EspoCrmProxy&method=list&entity=Lead&maxSize=20&offset=0
+2025-11-19T13:15:47+00:00 | rawLen=0 | parsed=null | _POST=[]

@@ -219,9 +219,9 @@ class BuilderMobileService
             }
         }
 
-        $icone = explode(' ', str_replace('fa-fw', '', trim($icon)));
+        $icone = explode(' ', str_replace('fa-fw', '', trim($icon ?? '')));
         $iconeParts = explode(':', $icone[0]);
-        $iconColor = trim($icone[ count($icone) -1 ]);
+        $iconColor = trim($icone[ count($icone) -1 ] ?? '');
         $iconColor = strpos($iconColor, "#") !== false ? $iconColor : NULL;
 
         $pages = [];
@@ -386,9 +386,9 @@ class BuilderMobileService
 
         foreach ($ini['user_public_pages']??[] as $item)
         {
-            $icone = explode(' ', str_replace('fa-fw', '', trim($item['icon'])));
+            $icone = explode(' ', str_replace('fa-fw', '', trim($item['icon'] ?? '')));
             $iconeParts = explode(':', $icone[0]);
-            $iconColor = trim($icone[ count($icone) -1 ]);
+            $iconColor = trim($icone[ count($icone) -1 ] ?? '');
             $iconColor = strpos($iconColor, "#") !== false ? $iconColor : NULL;
     
             $item['class'] = str_replace('#', '&', $item['class']);

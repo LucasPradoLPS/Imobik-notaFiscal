@@ -91,10 +91,10 @@ class BuilderDatabaseSystemService
 
                 foreach($scripts as $script)
                 {
-                    if(empty(trim($script)))
-                    {
-                        continue;
-                    }
+                    if(empty(trim($script ?? '')))
+                        {
+                            continue;
+                        }
 
                     $prepared = $conn->prepare($script);
                     $prepared->execute([]);
@@ -190,7 +190,7 @@ class BuilderDatabaseSystemService
 
             foreach($scripts as $script)
             {
-                if(empty(trim($script)))
+                if(empty(trim($script ?? '')))
                 {
                     continue;
                 }

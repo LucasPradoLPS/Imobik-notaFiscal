@@ -20,11 +20,11 @@ if (file_exists($dotenvPath) && is_readable($dotenvPath)) {
         foreach ($lines as $line) {
             // strip UTF-8 BOM if present (common on Windows editors)
             if (strpos($line, "\xEF\xBB\xBF") === 0) { $line = substr($line, 3); }
-            if (strpos(trim($line), '#') === 0) { continue; }
+            if (strpos(trim($line ?? ''), '#') === 0) { continue; }
         $pos = strpos($line, '=');
         if ($pos === false) { continue; }
-        $key = trim(substr($line, 0, $pos));
-        $val = trim(substr($line, $pos + 1));
+        $key = trim(substr($line, 0, $pos) ?? '');
+        $val = trim(substr($line, $pos + 1) ?? '');
         // strip quotes
         if ((str_starts_with($val, '"') && str_ends_with($val, '"')) || (str_starts_with($val, "'") && str_ends_with($val, "'"))) {
             $val = substr($val, 1, -1);
@@ -69,8 +69,8 @@ function espocrm_respond(array $res): void {
     // try to salvage raw JSON (strip BOM and trim)
     if (is_string($raw) && $raw !== '') {
         $raw2 = $raw;
-        if (strpos($raw2, "\xEF\xBB\xBF") === 0) { $raw2 = substr($raw2, 3); }
-        $raw2 = trim($raw2);
+        if (strpos($raw2 ?? '', "\xEF\xBB\xBF") === 0) { $raw2 = substr($raw2, 3); }
+        $raw2 = trim($raw2 ?? '');
         $decoded = json_decode($raw2, true);
         if (json_last_error() === JSON_ERROR_NONE) {
             echo json_encode($decoded);

@@ -87,3 +87,34 @@ test-write $(Get-Date)
     [line] => 92
 )
 
+2025-11-18T17:11:44+00:00 EXCEPTION: Call to undefined method EspoCrmClient::get()
+#0 [internal function]: EspoCrmRestService::getContacts()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\lib\adianti\core\AdiantiCoreApplication.php(183): call_user_func()
+#2 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#4 {main}
+
+2025-11-18T17:18:04+00:00 EXCEPTION: Call to undefined method EspoCrmClient::get()
+#0 [internal function]: EspoCrmRestService::getContacts()
+#1 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\lib\adianti\core\AdiantiCoreApplication.php(183): call_user_func()
+#2 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(120): Adianti\Core\AdiantiCoreApplication::execute()
+#3 C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\rest.php(154): AdiantiRestServer::run()
+#4 {main}
+
+2025-11-19T12:09:36+00:00 ERROR: mkdir(): File exists in C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\api\v1\Contact\index.php:6
+2025-11-19T12:09:36+00:00 EARLY FATAL: Array
+(
+    [type] => 2
+    [message] => mkdir(): File exists
+    [file] => C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\api\v1\Contact\index.php
+    [line] => 6
+)
+
+2025-11-19T12:09:36+00:00 FATAL: Array
+(
+    [type] => 2
+    [message] => mkdir(): File exists
+    [file] => C:\Users\lucas\Downloads\imobi-k\imobi_k_V2_12-04-2025\api\v1\Contact\index.php
+    [line] => 6
+)
+
